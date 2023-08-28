@@ -1,0 +1,9 @@
+[#] - Hero
+[] - About
+[#] - Work - Improve karne ka dekh - jyada simple lagra he
+[] - Skills
+[#] - Projects
+[] - Contact
+[#] - Footer - Improve karna he
+[] - Github
+[] - Extra Polish
