@@ -4,19 +4,17 @@ import styles from "../style";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Project from "./Project";
-import CardDeal from "./CardDeal";
-import Billing from "./Billing";
 
 const Projects = () => {
   return (
-    <section className={`${layout.section} relative`}>
-      
+    <section id="projects" className={`${layout.section} ${styles.marginY} relative`}>
       <div className="absolute z-[3] -left-1/4 -top-1/4 w-[25%] h-[25%] rounded-full white__gradient" />
       <div className="absolute z-[0] -left-1/4 -top-1/4 w-[25%] h-[25%] rounded-full pink__gradient" />
 
-      <div className="grid gap-4 sm:grid-cols-12 items-center">
+      <div className="grid sm:grid-cols-12 items-start">
         <div className="col-span-12 sm:col-span-4">
-          <div className="sm:text-left before:block before:w-24 before:h-3 before:mb-5 before:rounded-md before:dark:bg-secondary">
+          <div className="sm:text-left">
+            <div className="h-2 w-1/12 bg-secondary rounded-full mb-2" />
             <h3 className={styles.heading4}>Projects</h3>
           </div>
         </div>
@@ -42,7 +40,7 @@ const Projects = () => {
         }}
       >
         <SplideSlide>
-          <Project value="1"/>
+          <Project value="1" />
         </SplideSlide>
         <SplideSlide>
           <Project value="2" />
