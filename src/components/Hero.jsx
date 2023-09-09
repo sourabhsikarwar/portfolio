@@ -17,8 +17,9 @@ const Hero = () => {
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi sed
-          omnis placeat asperiores nam qui assumenda fugiat.
+          A passionate Full Stack Web Developer 🚀 having an experience of
+          building Web applications with JavaScript / Reactjs / Nodejs /
+          Expressjs / MongoDB and some other cool libraries and frameworks.
         </p>
       </div>
       <div

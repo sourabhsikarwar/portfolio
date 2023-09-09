@@ -38,7 +38,7 @@ const Footer = () => (
         ))}
       </div>
     </div>
-    <div className="mt-8 border-t border-dimBlue py-8 z-10">
+    <div className="mt-0 border-t border-dimBlue py-8 z-10">
       <p className="text-center text-xs/relaxed text-gray-500">
         © 2023. All rights reserved. Created by Sourabh Sikarwar
       </p>

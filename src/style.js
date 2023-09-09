@@ -13,6 +13,8 @@ const styles = {
     "font-poppins font-semibold sm:text-[20px] text-[16px] text-white w-full",
   paragraph:
     "font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px]",
+  paragraph2:
+    "font-poppins font-normal text-dimWhite text-[14px] leading-[30.8px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

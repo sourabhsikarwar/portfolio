@@ -11,7 +11,7 @@ const FeatureCard = ({icon, title, content, index}) => (
       <h4 className={styles.heading6}>
         {title}
       </h4>
-      <p className="font-poppins font-normal text-[16px] text-dimWhite leading-[24px] mb-1">
+      <p className="font-poppins font-normal text-[14px] text-dimWhite leading-[24px] mb-1">
         {content}
       </p>
     </div>
@@ -22,9 +22,10 @@ const Business = () => {
   return (
     <section id="about" className={layout.section}>
       <div className={layout.seciontInfo}>
-        <h2 className={styles.heading4}>You do the business, <br className="sm:block hidden"/> we'll handle the money.</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laudantium magnam quibusdam sunt voluptas, perferendis sint animi hic ducimus veritatis, quos reprehenderit consequuntur odit?
+        <h1 className="bg-white/10 px-4 py-1 rounded-full text-secondary font-semibold mb-2 w-fit">About me</h1>
+        <h2 className={styles.heading4}>Transforming ideas into<br className="sm:block hidden"/> interactive digital realities.</h2>
+        <p className={`${styles.paragraph2} max-w-[470px] mt-4`}>
+        Welcome to my world of full stack development! I am Sourabh Sikarwar, a seasoned full stack developer with a passion for crafting innovative digital solutions that seamlessly blend front-end aesthetics with back-end functionality. With the experience of tech industry through internships and  projects, I have honed my skills to provide comprehensive, end-to-end web development services.
         </p>
       </div>
 

@@ -7,7 +7,10 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <section id="projects" className={`${layout.section} ${styles.marginY} relative`}>
+    <section
+      id="projects"
+      className={`${layout.section} ${styles.marginY} relative`}
+    >
       <div className="absolute z-[3] -left-1/4 -top-1/4 w-[25%] h-[25%] rounded-full white__gradient" />
       <div className="absolute z-[0] -left-1/4 -top-1/4 w-[25%] h-[25%] rounded-full pink__gradient" />
 
@@ -20,8 +23,10 @@ const Projects = () => {
         </div>
         <div className="col-span-12 space-y-6 sm:col-span-8">
           <p className={styles.paragraph}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-            laboriosam est incidunt dolor dicta minima quas velit nostrum.
+            Explore my portfolio of diverse web projects, showcasing my
+            full-stack development expertise. From stunning front-end designs to
+            powerful back-end functionality, these examples demonstrate my
+            commitment to crafting seamless digital experiences.
           </p>
         </div>
       </div>
