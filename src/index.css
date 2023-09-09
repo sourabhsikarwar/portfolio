@@ -183,6 +183,13 @@
   border-radius: 5px;
 }
 
+.splide__pagination__page {
+  background-color: #ffffff;
+  opacity: 1;
+}
+.splide__pagination__page.is-active {
+  background-color: #00f6ff;
+}
 
 
 

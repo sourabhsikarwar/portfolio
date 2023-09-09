@@ -1,7 +1,7 @@
 import React from "react";
 import layout from "../style";
 import styles from "../style";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Project from "./Project";
 
@@ -42,11 +42,15 @@ const Projects = () => {
           wheelMinThreshold: 5,
           releaseWheel: true,
           arrows: false,
+          pagination: true,
+          autoplay: true,
+          interval: 2000,
         }}
       >
         <SplideSlide>
           <Project value="1" />
         </SplideSlide>
+
         <SplideSlide>
           <Project value="2" />
         </SplideSlide>
