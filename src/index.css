@@ -146,3 +146,44 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Styling the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #00f6ff;
+  border-radius: 5px;
+}
+
+/* Styling the scrollbar track (the background) */
+::-webkit-scrollbar-track {
+  background: #00040f;
+}
+
+/* Styling the scrollbar corner (between vertical and horizontal scrollbars) */
+::-webkit-scrollbar-corner {
+  background: #00040f;
+}
+::-moz-scrollbar-thumb {
+  background: #00f6ff;
+  border-radius: 5px;
+}
+/* for mozilla */
+::-moz-scrollbar-thumb {
+  background: #00f6ff;
+  border-radius: 5px;
+}
+/* for edge */
+::-ms-scrollbar-thumb {
+  background: #00f6ff;
+  border-radius: 5px;
+}
+
+
+
+
+
