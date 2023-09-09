@@ -21,6 +21,8 @@ import live from "./live.png";
 import github from "./github.png";
 import project1 from "./project1.png";
 import project2 from "./project22.png";
+import project3 from "./project3.png";
+import project4 from "./project4.png";
 import frontend from "./frontend.png";
 import backend from "./backend.png";
 import code from "./code.png";
@@ -50,6 +52,8 @@ export {
   github,
   project1,
   project2,
+  project3,
+  project4,
   frontend,
   backend,
   code,
