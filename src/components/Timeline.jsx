@@ -24,18 +24,29 @@ const Timeline = () => {
               </time>
               <ul className="list-disc list-inside mt-2 pr-2">
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Contributed in development of an application form with a
-                  status and submit flow, incorporating summary and KYC sections
-                  for a seamless user experience.
+                  Contributed in development of an{" "}
+                  <span className="font-semibold text-white">
+                    application form
+                  </span>{" "}
+                  with a status and submit flow, incorporating summary and KYC
+                  sections for a{" "}
+                  <span className="font-semibold text-white">
+                    seamless user experience.
+                  </span>
                 </li>
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Successfully refactored and optimized 10+ reusable and
-                  scalable components, enhancing overall codebase efficiency and
-                  maintainability.
+                  Successfully refactored and optimized{" "}
+                  <span className="font-semibold text-white">
+                    10+ reusable and scalable components
+                  </span>
+                  , enhancing overall codebase efficiency and maintainability.
                 </li>
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Utilized ReactJS, Redux, TailwindCSS, and MaterialUI to create
-                  a modern and user-friendly interface.
+                  Utilized{" "}
+                  <span className="font-semibold text-white">
+                    ReactJS, Redux, TailwindCSS, and MaterialUI
+                  </span>{" "}
+                  to create a modern and user-friendly interface.
                 </li>
               </ul>
             </div>
@@ -48,16 +59,23 @@ const Timeline = () => {
               </time>
               <ul className="list-disc list-inside mt-2 pr-2">
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Leveraged HTML, CSS, JavaScript, and Bootstrap to design and
-                  implement the frontend of the website.
+                  Leveraged{" "}
+                  <span className="font-semibold text-white">
+                    HTML, CSS, JavaScript, and Bootstrap
+                  </span>{" "}
+                  to design and implement the frontend of the website.
                 </li>
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Collaborated with a team of 3 developers to create a donation
-                  platform from scratch.
+                  Collaborated with a team of{" "}
+                  <span className="font-semibold text-white">3 developers</span>{" "}
+                  to create a donation platform from scratch.
                 </li>
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Integrated the Razorpay payment gateway for secure and
-                  hassle-free online donations.
+                  Integrated the{" "}
+                  <span className="font-semibold text-white">
+                    Razorpay payment gateway
+                  </span>{" "}
+                  for secure and hassle-free online donations.
                 </li>
               </ul>
             </div>
