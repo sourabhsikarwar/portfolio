@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={styles.heading2}>
             Hi, I am <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Sourabh Sikarwar</span>
+            <span className="text-gradient dark:text-gradient">Sourabh Sikarwar</span>
           </h1>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

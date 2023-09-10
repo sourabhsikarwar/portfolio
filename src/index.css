@@ -183,6 +183,9 @@
   border-radius: 5px;
 }
 
+.splide__pagination {
+  bottom: 0px;
+}
 .splide__pagination__page {
   background-color: #ffffff;
   opacity: 1;

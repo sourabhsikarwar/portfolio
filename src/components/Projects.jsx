@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="grid sm:grid-cols-12 items-start">
         <div className="col-span-12 sm:col-span-4">
           <div className="sm:text-left">
-            <div className="h-2 w-1/12 bg-secondary rounded-full mb-2" />
+            <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
             <h3 className={styles.heading4}>Projects</h3>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Projects = () => {
       {/* Projects */}
 
       <Splide
-        aria-label="My Favorite Images"
+        aria-label="Projects"
         options={{
           wheel: true,
           waitForTransition: true,
@@ -43,8 +43,6 @@ const Projects = () => {
           releaseWheel: true,
           arrows: false,
           pagination: true,
-          autoplay: true,
-          interval: 2000,
         }}
       >
         <SplideSlide>
