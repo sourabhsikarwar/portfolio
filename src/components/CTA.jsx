@@ -21,7 +21,7 @@ const CTA = () => (
         </div>
         <div className="flex flex-col rounded-md shadow">
           <p className="text-white dark:text-white sm:text-[16px] text-[12px]">
-            or call me at
+            or Call me at
           </p>
           <p className={`${styles.heading6} text-gradient dark:text-gradient`}>
             +91 8989151788

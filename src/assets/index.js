@@ -27,6 +27,9 @@ import frontend from "./frontend.png";
 import backend from "./backend.png";
 import code from "./code.png";
 import layer from "./layer.png";
+import figma from "./skills/figma.png"
+import rest from "./skills/rest.png"
+import leetcode from "./leetcode.svg"
 
 export {
   menu,
@@ -58,4 +61,7 @@ export {
   backend,
   code,
   layer,
+  figma,
+  rest,
+  leetcode
 };
