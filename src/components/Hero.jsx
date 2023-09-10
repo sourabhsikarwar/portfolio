@@ -1,5 +1,5 @@
 import styles from "../style";
-import { profile, resume } from "../assets";
+import { profile } from "../assets";
 
 const Hero = () => {
   return (
