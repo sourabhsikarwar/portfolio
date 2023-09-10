@@ -16,7 +16,7 @@ const CTA = () => (
             Mail me at
           </p>
           <p className={`${styles.heading6} text-gradient dark:text-gradient`}>
-            work.sourabh@gmail.com
+            letswork.sourabh@gmail.com
           </p>
         </div>
         <div className="flex flex-col rounded-md shadow">
