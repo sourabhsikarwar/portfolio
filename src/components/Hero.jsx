@@ -1,5 +1,5 @@
 import styles from "../style";
-import { profile } from "../assets";
+import { profile, resume } from "../assets";
 
 const Hero = () => {
   return (
@@ -13,14 +13,24 @@ const Hero = () => {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={styles.heading2}>
             Hi, I am <br className="sm:block hidden" />{" "}
-            <span className="text-gradient dark:text-gradient">Sourabh Sikarwar</span>
+            <span className="text-gradient dark:text-gradient">
+              Sourabh Sikarwar
+            </span>
           </h1>
         </div>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
           A passionate Full Stack Web Developer 🚀 having an experience of
           building Web applications with JavaScript / Reactjs / Nodejs /
           Expressjs / MongoDB and some other cool libraries and frameworks.
         </p>
+        <a
+          href="https://drive.google.com/file/d/1HEH9ck5lkh0NBFB3oN03BfdFIgYbeD7F/view?usp=sharing"
+          className="flex items-center gap-2 px-4 py-2 md:px-6 md:py-3 md:mt-6 bg-blue-gradient dark:bg-blue-gradient rounded font-semibold mt-4 mb-2"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Resume
+        </a>
       </div>
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
