@@ -1,5 +1,6 @@
 import styles from "../style";
 import { profile } from "../assets";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -7,8 +8,12 @@ const Hero = () => {
       id="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
-      <div
+      <motion.div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+        initial={{ opacity: 0.5, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={styles.heading2}>
@@ -31,11 +36,20 @@ const Hero = () => {
         >
           Resume
         </a>
-      </div>
+      </motion.div>
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-        <img src={profile} alt="robot" className="w-[80%] relative z-[5]" />
+        <motion.img
+          src={profile}
+          alt="robot"
+          className="w-[80%] relative z-[5]"
+          initial={{ opacity: 0.5, x: 100 }}
+          animate={{ opacity: 1, x: 0 }}
+          whileInView={{ opacity: 1 }}
+          reverse="true"
+          transition={{ duration: 0.5 }}
+        />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
         <div className="absolute z-[0] w-[50%] h-[50%] bottom-20 blue__gradient" />

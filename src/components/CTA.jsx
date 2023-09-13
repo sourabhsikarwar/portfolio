@@ -1,7 +1,11 @@
 import styles from "../style";
+import { motion } from "framer-motion";
 
 const CTA = () => (
-  <section id="contact"
+  <motion.section id="contact"
+    initial={{ opacity: 0, y: 100 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.8 }}
     className={`bg-white dark:bg-white dark:bg-opacity-10 rounded-xl relative overflow-hidden bg-opacity-10 ${styles.marginY}`}
   >
     <div className="w-64 h-64 bg-blue-gradient dark:bg-blue-gradient -top-28 -right-12 absolute rounded-full md:block hidden"/>
@@ -29,7 +33,7 @@ const CTA = () => (
         </div>
       </div>
     </div>
-  </section>
+  </motion.section>
 );
 
 export default CTA;
