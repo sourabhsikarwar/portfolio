@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="absolute z-[3] -left-1/4 -top-1/4 w-[25%] h-[25%] rounded-full white__gradient" />
       <div className="absolute z-[0] -left-1/4 -top-1/4 w-[25%] h-[25%] rounded-full pink__gradient" />
 
-      <motion.div
+      <div
         className="grid sm:grid-cols-12 items-start"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -35,11 +35,11 @@ const Projects = () => {
             commitment to crafting seamless digital experiences.
           </p>
         </div>
-      </motion.div>
+      </div>
 
       {/* Projects */}
 
-      <motion.div
+      <div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -70,7 +70,7 @@ const Projects = () => {
             <Project value="4" />
           </SplideSlide>
         </Splide>
-      </motion.div>
+      </div>
     </section>
   );
 };

@@ -8,6 +8,7 @@ import Timeline from "./Timeline"
 import Projects from './Projects'
 import Skills from './Skills'
 import Github from "./Github";
+import Loader from "./Loader";
 
 export {
   Navbar,
@@ -19,5 +20,6 @@ export {
   Timeline,
   Projects,
   Skills,
-  Github
+  Github,
+  Loader
 };

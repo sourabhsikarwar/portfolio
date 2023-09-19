@@ -8,7 +8,7 @@ const Hero = () => {
       id="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
     >
-      <motion.div
+      <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
         initial={{ opacity: 0.5, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
@@ -36,11 +36,11 @@ const Hero = () => {
         >
           Resume
         </a>
-      </motion.div>
+      </div>
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-        <motion.img
+        <img
           src={profile}
           alt="robot"
           className="w-[80%] relative z-[5]"

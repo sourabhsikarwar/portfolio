@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section id="skills" className={`${layout.section} ${styles.marginY}`}>
       <div className="grid gap-4 sm:grid-cols-12 w-full font-poppins">
-        <motion.div className="sm:col-span-4 col-span-12"
+        <div className="sm:col-span-4 col-span-12"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -16,10 +16,10 @@ const Skills = () => {
             <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
             <h3 className={styles.heading4}>Skills</h3>
           </div>
-        </motion.div>
+        </div>
         <div className="sm:col-span-8 col-span-12 grid gap-16 grid-cols-1 md:grid-cols-2">
           {skills.map((skill) => (
-            <motion.div className="col-span-1" key={skill.id}
+            <div className="col-span-1" key={skill.id}
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -44,7 +44,7 @@ const Skills = () => {
                   </div>
                 ))}
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

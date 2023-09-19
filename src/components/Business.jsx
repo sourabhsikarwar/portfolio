@@ -3,7 +3,7 @@ import { features } from "../constants";
 import { motion } from "framer-motion";
 
 const FeatureCard = ({ icon, title, content, index }) => (
-  <motion.div
+  <div
     initial={{ opacity: 0, y: 100 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
@@ -21,13 +21,13 @@ const FeatureCard = ({ icon, title, content, index }) => (
         {content}
       </p>
     </div>
-  </motion.div>
+  </div>
 );
 
 const Business = () => {
   return (
     <section id="about" className={layout.section}>
-      <motion.div className={layout.seciontInfo}
+      <div className={layout.seciontInfo}
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -47,7 +47,7 @@ const Business = () => {
           internships and projects, I have honed my skills to provide
           comprehensive, end-to-end web development services.
         </p>
-      </motion.div>
+      </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (

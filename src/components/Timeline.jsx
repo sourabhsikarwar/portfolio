@@ -6,7 +6,7 @@ const Timeline = () => {
   return (
     <section className={`${layout.section} ${styles.marginY}`}>
       <div className="grid gap-8 md:grid-cols-12">
-        <motion.div
+        <div
           className="col-span-12 md:col-span-4"
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -16,10 +16,10 @@ const Timeline = () => {
             <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
             <h3 className={styles.heading4}>Work Experience</h3>
           </div>
-        </motion.div>
+        </div>
         <div className="relative col-span-12 space-y-6 md:col-span-8 px-4">
           <div className="col-span-12 space-y-12 relative sm:col-span-8 px-4 sm:space-y-12 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:dark:bg-gray-600 before:bg-gray-600">
-            <motion.div
+            <div
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -58,8 +58,8 @@ const Timeline = () => {
                   to create a modern and user-friendly interface.
                 </li>
               </ul>
-            </motion.div>
-            <motion.div
+            </div>
+            <div
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
@@ -94,7 +94,7 @@ const Timeline = () => {
                   for secure and hassle-free online donations.
                 </li>
               </ul>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>

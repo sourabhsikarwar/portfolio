@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 const Footer = () => (
   <footer className="bg-primary dark:bg-primary relative">
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 z-100">
-      <motion.div className="flex justify-center"
+      <div className="flex justify-center"
       initial={{ scale: 0.6, opacity: 0 }}
       whileInView={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.5 }}
       >
         <img src={mylogo} alt="logo" className="w-40 shadow-img" />
-      </motion.div>
+      </div>
 
       <ul className="z-100 list-none my-12 flex sm:flex-row gap-4 sm:gap-8 flex-col justify-center items-center flex-1">
         {navLinks.map((nav, index) => (

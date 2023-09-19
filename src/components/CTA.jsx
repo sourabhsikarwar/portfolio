@@ -2,7 +2,7 @@ import styles from "../style";
 import { motion } from "framer-motion";
 
 const CTA = () => (
-  <motion.section id="contact"
+  <section id="contact"
     initial={{ opacity: 0, y: 100 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
@@ -33,7 +33,7 @@ const CTA = () => (
         </div>
       </div>
     </div>
-  </motion.section>
+  </section>
 );
 
 export default CTA;
