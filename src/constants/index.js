@@ -213,12 +213,12 @@ export const skills = [
         title: "Firebase",
         rate: 60,
       },
-      {
-        id: "4",
-        img: redis,
-        title: "Redis",
-        rate: 30,
-      },
+      // {
+      //   id: "4",
+      //   img: redis,
+      //   title: "Redis",
+      //   rate: 30,
+      // },
     ],
   },
   {
@@ -231,14 +231,14 @@ export const skills = [
         title: "REST API",
         rate: 70,
       },
+      // {
+      //   id: "2",
+      //   img: graphql,
+      //   title: "GraphQL",
+      //   rate: 20,
+      // },
       {
         id: "2",
-        img: graphql,
-        title: "GraphQL",
-        rate: 20,
-      },
-      {
-        id: "3",
         img: figma,
         title: "Figma",
         rate: 75,
