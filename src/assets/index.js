@@ -23,6 +23,7 @@ import project1 from "./project1.png";
 import project2 from "./project22.png";
 import project3 from "./project3.png";
 import project4 from "./project4.png";
+import project5 from "./project5.png"
 import frontend from "./frontend.png";
 import backend from "./backend.png";
 import code from "./code.png";
@@ -30,6 +31,7 @@ import layer from "./layer.png";
 import figma from "./skills/figma.png"
 import rest from "./skills/rest.png"
 import leetcode from "./leetcode.svg"
+import figmaIcon from "./figma.png"
 
 export {
   menu,
@@ -57,11 +59,13 @@ export {
   project2,
   project3,
   project4,
+  project5,
   frontend,
   backend,
   code,
   layer,
   figma,
   rest,
-  leetcode
+  leetcode,
+  figmaIcon
 };

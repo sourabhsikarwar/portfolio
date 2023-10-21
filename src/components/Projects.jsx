@@ -69,6 +69,9 @@ const Projects = () => {
           <SplideSlide>
             <Project value="4" />
           </SplideSlide>
+          <SplideSlide>
+            <Project value="5" />
+          </SplideSlide>
         </Splide>
       </div>
     </section>
