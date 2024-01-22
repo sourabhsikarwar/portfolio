@@ -15,13 +15,13 @@ const App = () => {
   return (
     <div className="bg-primary dark:bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth} fixed top-0 px-4 xl:px-0 z-50`}>
           <Navbar />
         </div>
       </div>
 
       <div className={`bg-primary dark:bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth} mt-20`}>
           <Hero />
         </div>
       </div>
