@@ -7,7 +7,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     initial={{ opacity: 0, y: 100 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
-    className={`flex flex-row p-4 rounded-[20px]
+    className={`flex flex-row items-center p-4 rounded-[20px] w-full
   ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}
   >
     <div
@@ -26,8 +26,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <section id="about" className={layout.section}>
-      <div className={layout.seciontInfo}
+    <section id="about" className={`${layout.section} items-start md:items-center`}>
+      <div className={layout.sectionInfo}
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}

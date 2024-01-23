@@ -2,7 +2,7 @@ const Circular = () => {
   return (
     <svg
       viewBox="0 0 1024 1024"
-      className="absolute opacity-20 left-0 top-1/2 z-10 h-[64rem] w-[64rem] -translate-x-1/2 md:-translate-x-3/4 [mask-image:radial-gradient(closest-side,white,transparent)]"
+      className="absolute opacity-20 left-0 top-1/2 z-0 h-[64rem] w-[64rem] -translate-x-1/2 md:-translate-x-3/4 [mask-image:radial-gradient(closest-side,white,transparent)]"
       aria-hidden="true"
     >
       <circle
