@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -161,7 +157,7 @@
 
 /* Styling the scrollbar thumb (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: #00f6ff;
+  background: #6ac1ff;
   border-radius: 5px;
 }
 
@@ -175,17 +171,17 @@
   background: #00040f;
 }
 ::-moz-scrollbar-thumb {
-  background: #00f6ff;
+  background: #6ac1ff;
   border-radius: 5px;
 }
 /* for mozilla */
 ::-moz-scrollbar-thumb {
-  background: #00f6ff;
+  background: #6ac1ff;
   border-radius: 5px;
 }
 /* for edge */
 ::-ms-scrollbar-thumb {
-  background: #00f6ff;
+  background: #6ac1ff;
   border-radius: 5px;
 }
 
@@ -197,7 +193,7 @@
   opacity: 1;
 }
 .splide__pagination__page.is-active {
-  background-color: #00f6ff;
+  background-color: #6ac1ff;
 }
 
 
