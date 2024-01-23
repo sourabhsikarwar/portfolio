@@ -1,4 +1,4 @@
-import { profile2 } from "../assets";
+import { profile } from "../assets";
 
 export default function Hero2() {
   return (
@@ -71,7 +71,7 @@ export default function Hero2() {
         </div>
         <div className="mx-auto flex-1">
           <div className="w-full md:w-4/5 mx-auto">
-            <img src={profile2} alt="App screenshot" className="rounded-md" />
+            <img src={profile} alt="App screenshot" className="rounded-md" />
           </div>
         </div>
       </div>
