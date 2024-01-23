@@ -9,6 +9,8 @@ import Projects from './Projects'
 import Skills from './Skills'
 import Github from "./Github";
 import Loader from "./Loader";
+import Zigzag from "./Gradients/Zigzag";
+import Circular from "./Gradients/Circular";
 
 export {
   Navbar,
@@ -21,5 +23,7 @@ export {
   Projects,
   Skills,
   Github,
-  Loader
+  Loader,
+  Zigzag,
+  Circular
 };

@@ -5,6 +5,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Project from "./Project";
 import { motion } from "framer-motion";
+import Circular from "./Gradients/Circular";
 
 const Projects = () => {
   return (
@@ -12,8 +13,7 @@ const Projects = () => {
       id="projects"
       className={`${layout.section} ${styles.marginY} relative`}
     >
-      <div className="absolute z-[3] -left-1/4 -top-1/4 w-[25%] h-[25%] rounded-full white__gradient" />
-      <div className="absolute z-[0] -left-1/4 -top-1/4 w-[25%] h-[25%] rounded-full pink__gradient" />
+      <Circular />
 
       <div
         className="grid sm:grid-cols-12 items-start"

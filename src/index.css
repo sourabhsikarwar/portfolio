@@ -15,6 +15,12 @@
     #6d6d6d -78.47%,
     #11101d 91.61%
   );
+  --glass-gradient: linear-gradient(
+    144.39deg,
+    #ffffff10 -278.56%,
+    #daf0ff10 -78.47%,
+    #bee4ff10 91.61%
+  );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
@@ -29,12 +35,12 @@
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #e8f5ff 0.89%,
+    #bbe3ff 17.23%,
+    #aadcff 42.04%,
+    #8dcfff 55.12%,
+    #80caff 71.54%,
+    #6ac1ff 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -45,12 +51,12 @@
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #e8f5ff 0.89%,
+    #aeddff 17.23%,
+    #9dd3fa 42.04%,
+    #8aceff 55.12%,
+    #7cc8ff 71.54%,
+    #6ac1ff 100%
   );
 }
 
@@ -133,7 +139,7 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #80caff 100%);
   filter: blur(123px);
 }
 

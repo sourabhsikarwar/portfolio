@@ -2,17 +2,20 @@ import styles from "../style";
 import { motion } from "framer-motion";
 
 const CTA = () => (
-  <section id="contact"
+  <section
+    id="contact"
     initial={{ opacity: 0, y: 100 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
-    className={`bg-white dark:bg-white dark:bg-opacity-10 rounded-xl relative overflow-hidden bg-opacity-10 ${styles.marginY}`}
+    className={`bg-white/5 ring-1 ring-secondary/20 backdrop-blur-xl rounded-xl relative overflow-hidden ${styles.marginY}`}
   >
-    <div className="w-64 h-64 bg-blue-gradient dark:bg-blue-gradient -top-28 -right-12 absolute rounded-full md:block hidden"/>
+    <div className="w-64 h-64 bg-blue-gradient dark:bg-blue-gradient -top-28 -right-12 absolute rounded-full md:block hidden" />
     <div className="flex flex-col gap-20 p-8 sm:p-12 items-center">
       <div className={styles.heading4}>
         Code That Drives Results!
-        <span className="block text-gradient dark:text-gradient font-bold">Let's Get Started.</span>
+        <span className="block text-gradient dark:text-gradient font-bold">
+          Let's Get Started.
+        </span>
       </div>
       <div className="flex flex-col md:flex-row justify-end items-start gap-8 sm:gap-16 md:items-end w-full">
         <div className="flex flex-col rounded-md shadow">

@@ -2,6 +2,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
 import profile from "./profile.png";
+import profile2 from "./profile2.png";
 import mylogo from "./mylogo.png";
 import react from "./skills/react.png";
 import nextjs from "./skills/nextjs.png";
@@ -38,6 +39,7 @@ export {
   close,
   arrowUp,
   profile,
+  profile2,
   mylogo,
   react,
   nextjs,
