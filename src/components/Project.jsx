@@ -28,6 +28,12 @@ const Project = ({ value }) => {
                 React.js and Firebase
               </span>
             </p>
+            <p className={styles.paragraph}>
+              Open Sourced at{" "}
+              <span className="font-semibold text-white dark:text-white">
+                GirlScript Summer of Code'23
+              </span>
+            </p>
             <div className="flex gap-4 mt-4">
               <a
                 href="https://github.com/sourabhsikarwar/Scene-Movie-Platform"
@@ -38,10 +44,10 @@ const Project = ({ value }) => {
                 <img src={github} alt="code" className="w-4" />
               </a>
               <a
-                href="https://scene-movie-platform.vercel.app/"
+                href="https://scene-admin.vercel.app/"
                 className="flex items-center gap-2 px-6 py-3 bg-gray-100 dark:bg-gray-100 hover:bg-gray-200 rounded font-semibold"
               >
-                Live Demo
+                Live
                 <img src={live} alt="demo" className="w-4" />
               </a>
             </div>
@@ -83,7 +89,7 @@ const Project = ({ value }) => {
                 href="https://inabin.vercel.app/"
                 className="flex items-center gap-2 px-6 py-3 bg-gray-100 dark:bg-gray-100 hover:bg-gray-200 rounded font-semibold"
               >
-                Live Demo
+                Live
                 <img src={live} alt="demo" className="w-4" />
               </a>
             </div>
