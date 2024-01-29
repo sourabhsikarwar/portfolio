@@ -10,14 +10,14 @@ import {
   Projects,
   Skills,
   Zigzag,
+  Testimonials
 } from "./components";
-import Hero2 from "./components/Hero2";
 
 const App = () => {
   return (
     <div className="bg-primary dark:bg-primary w-full overflow-hidden">
       <Navbar />
-      <Hero2 />
+      <Hero />
 
       <div
         className={`bg-primary dark:bg-primary ${styles.paddingX} ${styles.flexStart}`}
@@ -27,6 +27,7 @@ const App = () => {
           <Timeline />
           <Projects />
           <Skills />
+          <Testimonials />
           <div className="relative">
             <Zigzag />
             <CTA />

@@ -33,6 +33,8 @@ import figma from "./skills/figma.png"
 import rest from "./skills/rest.png"
 import leetcode from "./leetcode.svg"
 import figmaIcon from "./figma.png"
+import dennisPhoto from "./testimonial/photo.jpeg"
+import quotes from "./quotes.png"
 
 export {
   menu,
@@ -69,5 +71,7 @@ export {
   figma,
   rest,
   leetcode,
-  figmaIcon
+  figmaIcon,
+  dennisPhoto,
+  quotes
 };

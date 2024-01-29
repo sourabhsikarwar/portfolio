@@ -17,9 +17,6 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
     <div className="flex-1 flex flex-col ml-4">
       <h4 className={styles.heading6}>{title}</h4>
-      {/* <p className="font-poppins font-normal text-[14px] text-dimWhite dark:text-dimWhite leading-[24px] mb-1">
-        {content}
-      </p> */}
     </div>
   </div>
 );
@@ -32,7 +29,7 @@ const Business = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <h1 className="bg-secondary/10 dark:bg-secondary/10 ring-1 ring-inset ring-secondary/10 px-4 py-2 rounded-full text-secondary dark:text-secondary font-semibold mb-4 w-fit">
+        <h1 className="bg-secondary/10 dark:bg-secondary/10 ring-1 ring-inset ring-secondary/10 px-4 py-2 rounded-full text-secondary dark:text-secondary font-semibold mb-2 w-fit">
           About me &#128171;
         </h1>
         <h2 className={styles.heading4}>

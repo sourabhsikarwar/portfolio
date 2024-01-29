@@ -1,30 +1,45 @@
-import styles from "../style"
-import { feedback } from "../constants"
-import FeedbackCard from "./FeedbackCard"
+import styles, { layout } from "../style";
+import { dennisPhoto, quotes } from "../assets";
 
 const Testimonials = () => {
   return (
-    <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
-
-      <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient"/>
-
-      <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-        <h1 className={styles.heading2}>What people are <br className="sm:block hidden"/> saying about us</h1>
-        <div className="w-full md:mt-0 mt-6">
-          <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quidem sit dolore nam delectus repudiandae laboriosam!
-          </p>
+    <section
+      id="projects"
+      className={`${layout.sectionCol} ${styles.marginY} items-center gap-8`}
+    >
+      <div className="w-24 aspect-square">
+        <img
+          src={quotes}
+          alt="quotes"
+          className="w-full h-full object-cover rotate-180"
+        />
+      </div>
+      <p
+        className={`text-white w-full md:w-4/5 mx-auto text-center text-md md:text-xl paragraph`}
+      >
+        Sourabh's ability to bring fresh ideas to the table was truly
+        commendable. He took the time to understand my vision and business
+        needs, offering innovative solutions that exceeded my expectations.
+        Throughout the entire process, Sourabh exhibited remarkable patience,
+        ensuring that every detail was meticulously addressed and that I was
+        comfortable with each stage of development.
+      </p>
+      <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
+      <div className="flex flex-col gap-1 items-center">
+        <div className="w-24 aspect-square rounded-full overflow-hidden p-1 bg-secondary">
+          <img
+            src={dennisPhoto}
+            alt="client_photo"
+            className="w-full h-full object-cover rounded-full"
+          />
         </div>
+        <h1 className="handWritten text-white text-5xl mt-2">Dennis Dubbala</h1>
+        <p className={styles.paragraph}>
+          Product Lead, <span className="text-gradient">K2Cloud</span>
+        </p>
       </div>
-
-      <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-        {feedback.map((card) => (
-          <FeedbackCard key={card.id} {...card}/>
-        ))}
-      </div>
-
     </section>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;
