@@ -1,4 +1,4 @@
-import { profile } from "../assets";
+import { profile2 } from "../assets";
 
 export default function Hero() {
   return (
@@ -47,9 +47,9 @@ export default function Hero() {
       <div className="mx-auto flex flex-col md:flex-row items-center gap-8 max-w-6xl xl:max-w-7xl w-full">
         <div className="mx-auto flex-1">
           <span className="rounded-full bg-secondary/10 px-4 py-2 font-semibold leading-6 text-secondary ring-1 ring-inset ring-secondary/20">
-            Namaste &#128075;
+            Hello
           </span>
-          <h1 className="mt-8 text-4xl font-bold text-white md:text-4xl lg:text-5xl xl:text-6xl">
+          <h1 className="mt-4 text-4xl font-bold text-white md:text-4xl lg:text-5xl xl:text-6xl">
             I am <br />
             <span className="text-gradient">Sourabh Sikarwar</span>
           </h1>
@@ -71,7 +71,7 @@ export default function Hero() {
         </div>
         <div className="mx-auto flex-1">
           <div className="w-full md:w-4/5 mx-auto">
-            <img src={profile} alt="App screenshot" className="rounded-md" />
+            <img src={profile2} alt="App screenshot" className="rounded-md" />
           </div>
         </div>
       </div>

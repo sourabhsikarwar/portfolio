@@ -15,7 +15,7 @@ const Testimonials = () => {
         />
       </div>
       <p
-        className={`text-white w-full md:w-4/5 mx-auto text-center text-md md:text-xl paragraph`}
+        className="w-full text-gray-100 md:w-4/5 mx-auto text-center text-md md:text-xl paragraph"
       >
         Sourabh's ability to bring fresh ideas to the table was truly
         commendable. He took the time to understand my vision and business
@@ -24,7 +24,7 @@ const Testimonials = () => {
         ensuring that every detail was meticulously addressed and that I was
         comfortable with each stage of development.
       </p>
-      <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
+      <div className="h-2 w-12 bg-secondary dark:bg-secondary rounded-full mb-2" />
       <div className="flex flex-col gap-1 items-center">
         <div className="w-24 aspect-square rounded-full overflow-hidden p-1 bg-secondary">
           <img

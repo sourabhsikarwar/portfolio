@@ -30,7 +30,7 @@ const Business = () => {
         transition={{ duration: 0.8 }}
       >
         <h1 className="bg-secondary/10 dark:bg-secondary/10 ring-1 ring-inset ring-secondary/10 px-4 py-2 rounded-full text-secondary dark:text-secondary font-semibold mb-2 w-fit">
-          About me &#128171;
+          About me
         </h1>
         <h2 className={styles.heading4}>
           Transforming ideas into
