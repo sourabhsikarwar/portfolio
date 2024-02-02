@@ -4,7 +4,7 @@ import { dennisPhoto, quotes } from "../assets";
 const Testimonials = () => {
   return (
     <section
-      id="projects"
+      id="testimonial"
       className={`${layout.sectionCol} ${styles.marginY} items-center gap-8`}
     >
       <div className="w-24 aspect-square">
