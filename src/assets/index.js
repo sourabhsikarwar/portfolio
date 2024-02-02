@@ -32,6 +32,7 @@ import layer from "./layer.png";
 import figma from "./skills/figma.png"
 import rest from "./skills/rest.png"
 import leetcode from "./leetcode.svg"
+import postgresql from "./skills/postgresql.png"
 import figmaIcon from "./figma.png"
 import dennisPhoto from "./testimonial/photo.jpeg"
 import quotes from "./quotes.png"
@@ -73,5 +74,6 @@ export {
   leetcode,
   figmaIcon,
   dennisPhoto,
-  quotes
+  quotes,
+  postgresql
 };

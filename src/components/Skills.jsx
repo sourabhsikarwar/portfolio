@@ -30,15 +30,12 @@ const Skills = () => {
               <div className="flex flex-row flex-wrap gap-6">
                 {skill?.skillSet?.map((skillSet) => (
                   <div className="flex flex-col items-center" key={skillSet.id}>
-                    <div className="flex items-center justify-center w-16 mb-2 h-16 p-2 rounded-lg bg-gray-100 dark:bg-gray-100 hover:bg-gray-900 transition-all duration-300 ease-in-out group relative">
+                    <div className="flex items-center justify-center w-16 aspect-square mb-2 p-2 rounded-lg bg-gray-100 dark:bg-gray-100 transition-all duration-300 ease-in-out">
                       <img
                         src={skillSet.img}
                         alt="skills"
-                        className="mix-blend-multiply"
+                        className="mix-blend-multiply aspect-square object-contain"
                       />
-                      <p className="absolute hidden group-hover:block text-white dark:text-white text-sm font-bold">
-                        {skillSet.rate + '%'}
-                      </p>
                     </div>
                     <p className="text-white dark:text-white text-[12px]">{skillSet.title}</p>
                   </div>
