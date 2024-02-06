@@ -39,7 +39,7 @@ const Business = () => {
           Transforming ideas into
           <br className="sm:block hidden" /> interactive digital realities.
         </h2>
-        <p className={`${styles.paragraph} text-justify w-5/6`}>
+        <p className={`${styles.paragraph} text-justify w-full md:w-5/6`}>
           Welcome to my world of full stack development! I am Sourabh Sikarwar,
           a seasoned full stack developer with a passion for crafting innovative
           digital solutions that seamlessly blend front-end aesthetics with
