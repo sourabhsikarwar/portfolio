@@ -15,6 +15,7 @@ import {
   tailwind,
   frontend,
   backend,
+  app,
   layer,
   code,
   figma,
@@ -45,22 +46,22 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: code,
+    icon: frontend,
     title: "Front-end Technologies",
     content:
       "I specialize in crafting captivating user interfaces using HTML5, CSS3, and JavaScript frameworks like React and Next.js. I ensure that every user interaction is smooth and visually engaging.",
   },
   {
     id: "feature-2",
-    icon: code,
+    icon: backend,
     title: "Back-end Development",
     content:
       "I work with server-side technologies such as Node.js, Express.js and have experience with services like firebase to create efficient and scalable back-end systems.",
   },
   {
     id: "feature-3",
-    icon: code,
-    title: "Continuous Learning",
+    icon: app,
+    title: "App Development",
     content:
       "Staying updated with the ever-evolving tech landscape is my commitment. I'm constantly learning and experimenting with new technologies and trends to provide you with cutting-edge solutions.",
   },

@@ -27,6 +27,7 @@ import project4 from "./project4.png";
 import project5 from "./project5.png"
 import frontend from "./frontend.png";
 import backend from "./backend.png";
+import app from "./app.png";
 import code from "./code.png";
 import layer from "./layer.png";
 import figma from "./skills/figma.png"
@@ -67,6 +68,7 @@ export {
   project5,
   frontend,
   backend,
+  app,
   code,
   layer,
   figma,
