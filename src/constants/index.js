@@ -61,7 +61,7 @@ export const features = [
   {
     id: "feature-3",
     icon: app,
-    title: "App Development",
+    title: "Continues Learning",
     content:
       "Staying updated with the ever-evolving tech landscape is my commitment. I'm constantly learning and experimenting with new technologies and trends to provide you with cutting-edge solutions.",
   },

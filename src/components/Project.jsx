@@ -86,14 +86,14 @@ const Project = ({ value }) => {
                 Source Code
                 <img src={github} alt="code" className="w-4" />
               </a>
-              <a
+              {/* <a
                 href="https://inabin.vercel.app/"
                 target="_blank"
                 className="flex items-center gap-2 px-6 py-3 bg-gray-100 dark:bg-gray-100 hover:bg-gray-200 rounded font-semibold"
               >
                 Live
                 <img src={live} alt="demo" className="w-4" />
-              </a>
+              </a> */}
             </div>
           </div>
         </section>
