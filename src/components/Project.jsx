@@ -6,7 +6,6 @@ import {
   github,
   project3,
   project4,
-  project5,
   figmaIcon,
 } from "../assets";
 

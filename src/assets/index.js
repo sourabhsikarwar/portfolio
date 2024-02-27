@@ -1,9 +1,26 @@
-import menu from "./menu.svg";
-import close from "./close.svg";
-import arrowUp from "./arrow-up.svg";
-import profile from "./profile.png";
-import profile2 from "./profile2.png";
-import mylogo from "./mylogo.png";
+import menu from "./icons/menu.svg";
+import close from "./icons/close.svg";
+import arrowUp from "./icons/arrow-up.svg";
+import backend from "./icons/backend.png";
+import frontend from "./icons/frontend.png";
+import layer from "./icons/layer.png";
+import code from "./icons/code.png";
+import live from "./icons/live.png";
+import quotes from "./icons/quotes.webp";
+import resume from "./icons/resume.png";
+import share from "./icons/share.png";
+import app from "./icons/app.png";
+import figmaIcon from "./icons/figma.png";
+
+import profile from "./profile/profile.webp";
+import profile2 from "./profile/profile2.webp";
+import mylogo from "./profile/mylogo.webp";
+
+import project1 from "./projects/project1.webp";
+import project2 from "./projects/project22.webp";
+import project3 from "./projects/project3.webp";
+import project4 from "./projects/project4.webp";
+
 import react from "./skills/react.png";
 import nextjs from "./skills/nextjs.png";
 import firebase from "./skills/firebase.png";
@@ -18,25 +35,15 @@ import css from "./skills/css.png";
 import tailwind from "./skills/tailwind.png";
 import graphql from "./skills/graphql.png";
 import mysql from "./skills/mysql.png";
-import live from "./live.png";
-import github from "./github.png";
-import project1 from "./project1.png";
-import project2 from "./project22.png";
-import project3 from "./project3.png";
-import project4 from "./project4.png";
-import project5 from "./project5.png"
-import frontend from "./frontend.png";
-import backend from "./backend.png";
-import app from "./app.png";
-import code from "./code.png";
-import layer from "./layer.png";
-import figma from "./skills/figma.png"
-import rest from "./skills/rest.png"
-import leetcode from "./leetcode.svg"
-import postgresql from "./skills/postgresql.png"
-import figmaIcon from "./figma.png"
-import dennisPhoto from "./testimonial/photo.jpeg"
-import quotes from "./quotes.png"
+import figma from "./skills/figma.png";
+import rest from "./skills/rest.png";
+import postgresql from "./skills/postgresql.png";
+
+import github from "./social/github.png";
+import leetcode from "./social/leetcode.svg";
+import linkedin from "./social/linkedin.svg";
+
+import dennisPhoto from "./testimonial/photo.webp";
 
 export {
   menu,
@@ -65,7 +72,6 @@ export {
   project2,
   project3,
   project4,
-  project5,
   frontend,
   backend,
   app,
@@ -77,5 +83,8 @@ export {
   figmaIcon,
   dennisPhoto,
   quotes,
-  postgresql
+  postgresql,
+  linkedin,
+  resume,
+  share,
 };
