@@ -22,6 +22,7 @@ import {
   rest,
   leetcode,
   postgresql,
+  strapi
 } from "../assets";
 
 export const navLinks = [
@@ -234,12 +235,12 @@ export const skills = [
         title: "REST API",
         rate: 70,
       },
-      // {
-      //   id: "2",
-      //   img: graphql,
-      //   title: "GraphQL",
-      //   rate: 20,
-      // },
+      {
+        id: "2",
+        img: strapi,
+        title: "StrapiCMS",
+        rate: 20,
+      },
       {
         id: "2",
         img: figma,

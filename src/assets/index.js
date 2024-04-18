@@ -38,6 +38,7 @@ import mysql from "./skills/mysql.png";
 import figma from "./skills/figma.png";
 import rest from "./skills/rest.png";
 import postgresql from "./skills/postgresql.png";
+import strapi from "./skills/strapi.png";
 
 import github from "./social/github.png";
 import leetcode from "./social/leetcode.svg";
@@ -87,4 +88,5 @@ export {
   linkedin,
   resume,
   share,
+  strapi,
 };
