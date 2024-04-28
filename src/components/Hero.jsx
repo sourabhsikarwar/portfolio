@@ -47,7 +47,7 @@ export default function Hero() {
       <div className="mx-auto flex flex-col md:flex-row items-center gap-8 max-w-6xl xl:max-w-7xl w-full">
         <div className="mx-auto flex-1">
           <span className="rounded-full bg-secondary/10 px-4 py-2 font-semibold leading-6 text-secondary ring-1 ring-inset ring-secondary/20">
-            Hello
+            Hello 👋
           </span>
           <h1 className="mt-4 text-4xl font-bold text-white md:text-4xl lg:text-5xl xl:text-6xl">
             I am <br />
