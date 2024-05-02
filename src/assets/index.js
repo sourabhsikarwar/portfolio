@@ -20,6 +20,7 @@ import project1 from "./projects/project1.webp";
 import project2 from "./projects/project22.webp";
 import project3 from "./projects/project3.webp";
 import project4 from "./projects/project4.webp";
+import project5 from "./projects/project5.webp";
 
 import react from "./skills/react.png";
 import nextjs from "./skills/nextjs.png";
@@ -73,6 +74,7 @@ export {
   project2,
   project3,
   project4,
+  project5,
   frontend,
   backend,
   app,

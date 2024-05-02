@@ -57,9 +57,11 @@ const Projects = () => {
           }}
         >
           <SplideSlide>
+            <Project value="5" />
+          </SplideSlide>
+          <SplideSlide>
             <Project value="1" />
           </SplideSlide>
-
           <SplideSlide>
             <Project value="2" />
           </SplideSlide>

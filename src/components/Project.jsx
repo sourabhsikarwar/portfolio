@@ -7,6 +7,7 @@ import {
   project3,
   project4,
   figmaIcon,
+  project5,
 } from "../assets";
 
 const Project = ({ value }) => {
@@ -158,6 +159,38 @@ const Project = ({ value }) => {
           </div>
           <div className={layout.sectionImg}>
             <img src={project3} alt="card" />
+          </div>
+        </section>
+      );
+    case "5":
+      return (
+        <section className={layout.section}>
+          <div className={layout.sectionImgReverse}>
+            <img src={project5} alt="card" />
+          </div>
+          <div className={layout.sectionInfo}>
+            <h2 className={styles.heading5}>Thread Harvest</h2>
+            <p className={`${styles.paragraph} max-w-[470px] mt-5s`}>
+              Developed a multithreaded web scraper in Node.js with batching,
+              achieving a 50% performance boost through parallel processing
+              strategies and caching with Redis.
+            </p>
+            <p className={styles.paragraph}>
+              Built using{" "}
+              <span className="font-semibold text-white dark:text-white">
+                JS, Node.js, Puppeteer, Redis
+              </span>
+            </p>
+            <div className="flex gap-4 mt-4">
+              <a
+                href="https://github.com/sourabhsikarwar/MultiThreaded-WebScraper"
+                target="_blank"
+                className="flex items-center gap-2 px-6 py-3 bg-blue-gradient dark:bg-blue-gradient rounded font-semibold"
+              >
+                Source Code
+                <img src={github} alt="code" className="w-4" />
+              </a>
+            </div>
           </div>
         </section>
       );
