@@ -22,6 +22,11 @@ import project3 from "./projects/project3.webp";
 import project4 from "./projects/project4.webp";
 import project5 from "./projects/project5.webp";
 
+import p2 from "./projects/p2.webp";
+import p3 from "./projects/p3.webp";
+import p4 from "./projects/p4.webp";
+import p5 from "./projects/p5.webp";
+
 import react from "./skills/react.png";
 import nextjs from "./skills/nextjs.png";
 import firebase from "./skills/firebase.png";
@@ -91,4 +96,8 @@ export {
   resume,
   share,
   strapi,
+  p2,
+  p3,
+  p4,
+  p5,
 };

@@ -10,7 +10,7 @@ import {
   Projects,
   Skills,
   Zigzag,
-  Testimonials
+  Testimonials,
 } from "./components";
 
 const App = () => {

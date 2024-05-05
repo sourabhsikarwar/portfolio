@@ -6,6 +6,7 @@ import "@splidejs/react-splide/css";
 import Project from "./Project";
 import { motion } from "framer-motion";
 import Circular from "./Gradients/Circular";
+import { projectsArr } from "../constants";
 
 const Projects = () => {
   return (
@@ -73,6 +74,26 @@ const Projects = () => {
           </SplideSlide>
         </Splide>
       </div>
+
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start w-full mt-16">
+        {projectsArr.map((project) => (
+          <div key={project.key}>
+            <div className="relative">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="shape"
+              />
+              <div className="w-24 h-24 bg-black absolute bottom-0 right-0 rounded-tl-[50px]">
+                <div className="w-16 h-16 bg-secondary m-4 rounded-full" />
+              </div>
+            </div>
+            <div>
+              <p>{project.description}</p>
+            </div>
+          </div>
+        ))}
+      </div> */}
     </section>
   );
 };

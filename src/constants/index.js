@@ -22,7 +22,12 @@ import {
   rest,
   leetcode,
   postgresql,
-  strapi
+  strapi,
+  project5,
+  p2,
+  p3,
+  p4,
+  p5,
 } from "../assets";
 
 export const navLinks = [
@@ -248,5 +253,44 @@ export const skills = [
         rate: 75,
       },
     ],
+  },
+];
+
+export const projectsArr = [
+  {
+    id: 1,
+    title: "Thread Harvest",
+    description: "",
+    tech: ["JS", "Node.js", "Puppeteer", "Redis"],
+    live: "",
+    github: "https://github.com/sourabhsikarwar/MultiThreaded-WebScraper",
+    image: p2,
+  },
+  {
+    id: 2,
+    title: "Thread Harvest",
+    description: "",
+    tech: ["JS", "Node.js", "Puppeteer", "Redis"],
+    live: "",
+    github: "https://github.com/sourabhsikarwar/MultiThreaded-WebScraper",
+    image: p3,
+  },
+  {
+    id: 3,
+    title: "Thread Harvest",
+    description: "",
+    tech: ["JS", "Node.js", "Puppeteer", "Redis"],
+    live: "",
+    github: "https://github.com/sourabhsikarwar/MultiThreaded-WebScraper",
+    image: p4,
+  },
+  {
+    id: 4,
+    title: "Thread Harvest",
+    description: "",
+    tech: ["JS", "Node.js", "Puppeteer", "Redis"],
+    live: "",
+    github: "https://github.com/sourabhsikarwar/MultiThreaded-WebScraper",
+    image: p5,
   },
 ];
