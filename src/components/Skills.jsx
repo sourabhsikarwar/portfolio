@@ -8,9 +8,9 @@ const Skills = () => {
     <section id="skills" className={`${layout.section} ${styles.marginY}`}>
       <div className="grid gap-4 sm:grid-cols-12 w-full font-poppins">
         <div className="sm:col-span-4 col-span-12"
-          initial={{ opacity: 0, y: 100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          // initial={{ opacity: 0, y: 100 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // transition={{ duration: 0.8 }}
         >
           <div className="sm:text-left">
             <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
@@ -20,9 +20,9 @@ const Skills = () => {
         <div className="sm:col-span-8 col-span-12 grid gap-16 grid-cols-1 md:grid-cols-2">
           {skills.map((skill) => (
             <div className="col-span-1" key={skill.id}
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
+              // initial={{ opacity: 0, y: 100 }}
+              // whileInView={{ opacity: 1, y: 0 }}
+              // transition={{ duration: 0.8 }}
             >
               <h6 className={`${styles.heading6} text-gradient dark:text-gradient mb-4`}>
                 {skill.title}

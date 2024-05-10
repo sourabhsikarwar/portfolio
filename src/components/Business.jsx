@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    initial={{ opacity: 0, y: 100 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.8 }}
+    // initial={{ opacity: 0, y: 100 }}
+    // whileInView={{ opacity: 1, y: 0 }}
+    // transition={{ duration: 0.8 }}
     className="flex flex-row items-center gap-6 w-full p-6 rounded-xl border-2 border-secondary/10 dark:border-secondary/10 shadow-card z-10"
   >
     <div
@@ -28,9 +28,9 @@ const Business = () => {
     >
       <div
         className={`${layout.sectionInfo} gap-6`}
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        // initial={{ opacity: 0, y: 100 }}
+        // whileInView={{ opacity: 1, y: 0 }}
+        // transition={{ duration: 0.8 }}
       >
         <h1 className="bg-secondary/10 dark:bg-secondary/10 ring-1 ring-inset ring-secondary/10 px-4 py-2 rounded-full text-secondary dark:text-secondary font-semibold mb-2 w-fit">
           About me

@@ -18,9 +18,9 @@ const Projects = () => {
 
       <div
         className="grid sm:grid-cols-12 items-start"
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        // initial={{ opacity: 0, y: 100 }}
+        // whileInView={{ opacity: 1, y: 0 }}
+        // transition={{ duration: 0.8 }}
       >
         <div className="col-span-12 sm:col-span-4">
           <div className="sm:text-left">
@@ -41,9 +41,9 @@ const Projects = () => {
       {/* Projects */}
 
       <div
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        // initial={{ opacity: 0, y: 100 }}
+        // whileInView={{ opacity: 1, y: 0 }}
+        // transition={{ duration: 0.8 }}
       >
         <Splide
           aria-label="Projects"

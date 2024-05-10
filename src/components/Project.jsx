@@ -6,11 +6,13 @@ import {
   github,
   project3,
   project4,
-  figmaIcon,
   project5,
 } from "../assets";
+import useExtractColor from "../hooks/useExtractColor";
 
 const Project = ({ value }) => {
+  const dominantColor = useExtractColor("https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/")
+  console.log(dominantColor, "Data")
   switch (value) {
     case "1":
       return (

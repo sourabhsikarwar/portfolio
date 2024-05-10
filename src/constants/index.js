@@ -247,7 +247,7 @@ export const skills = [
         rate: 20,
       },
       {
-        id: "2",
+        id: "3",
         img: figma,
         title: "Figma",
         rate: 75,
