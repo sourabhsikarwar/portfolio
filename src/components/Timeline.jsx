@@ -35,19 +35,24 @@ const Timeline = () => {
               </time>
               <ul className="list-disc list-inside mt-2 pr-2">
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Enhanced{" "}
+                  Developed{" "}
+                  <span className="font-medium text-white">
+                    in-house flyer widgets end-to-end
+                  </span>
+                  , replacing Appsflyer across the web product to enhance
+                  <span className="font-medium text-white dark:text-white">
+                    {" "}
+                    interaction, performance, and user acquisition.
+                  </span>
+                </li>
+                <li className={`${styles.paragraph2} mt-2`}>
+                  Developed and enhanced{" "}
                   <span className="font-medium text-white">
                     finance calculators
                   </span>{" "}
                   with interactive charts, optimizing Strapi APIs and images by{" "}
                   <span className="font-medium text-white dark:text-white">
                     50% in size.
-                  </span>
-                </li>
-                <li className={`${styles.paragraph2} mt-2`}>
-                  Developed and optimized features in{" "}
-                  <span className="font-medium text-white dark:text-white">
-                    web and mobile webviews consuming REST APIs.
                   </span>
                 </li>
                 <li className={`${styles.paragraph2} mt-2`}>
@@ -75,9 +80,9 @@ const Timeline = () => {
               </time>
               <ul className="list-disc list-inside mt-2 pr-2">
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Contributed in development of an{" "}
+                  Contributed in development of {" "}
                   <span className="font-medium text-white">
-                    application form
+                    application forms
                   </span>{" "}
                   with a status and submit flow, incorporating summary and KYC
                   sections for a{" "}
