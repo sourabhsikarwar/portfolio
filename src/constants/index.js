@@ -28,6 +28,7 @@ import {
   p3,
   p4,
   p5,
+  p1,
 } from "../assets";
 
 export const navLinks = [
@@ -260,32 +261,45 @@ export const projectsArr = [
   {
     id: 1,
     title: "Thread Harvest",
-    description: "",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor.",
+    tech: ["JS", "Node.js", "Puppeteer", "Redis"],
+    live: "",
+    github: "https://github.com/sourabhsikarwar/MultiThreaded-WebScraper",
+    image: p1,
+  },
+  {
+    id: 2,
+    title: "Thread Harvest",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor.",
     tech: ["JS", "Node.js", "Puppeteer", "Redis"],
     live: "",
     github: "https://github.com/sourabhsikarwar/MultiThreaded-WebScraper",
     image: p2,
   },
   {
-    id: 2,
+    id: 3,
     title: "Thread Harvest",
-    description: "",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor.",
     tech: ["JS", "Node.js", "Puppeteer", "Redis"],
     live: "",
     github: "https://github.com/sourabhsikarwar/MultiThreaded-WebScraper",
     image: p3,
   },
   {
-    id: 3,
+    id: 4,
     title: "Thread Harvest",
-    description: "",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor.",
     tech: ["JS", "Node.js", "Puppeteer", "Redis"],
     live: "",
     github: "https://github.com/sourabhsikarwar/MultiThreaded-WebScraper",
     image: p4,
   },
   {
-    id: 4,
+    id: 5,
     title: "Thread Harvest",
     description: "",
     tech: ["JS", "Node.js", "Puppeteer", "Redis"],

@@ -7,6 +7,7 @@ import Project from "./Project";
 import { motion } from "framer-motion";
 import Circular from "./Gradients/Circular";
 import { projectsArr } from "../constants";
+import ProjectNew from "./ProjectNew";
 
 const Projects = () => {
   return (
@@ -18,9 +19,6 @@ const Projects = () => {
 
       <div
         className="grid sm:grid-cols-12 items-start"
-        // initial={{ opacity: 0, y: 100 }}
-        // whileInView={{ opacity: 1, y: 0 }}
-        // transition={{ duration: 0.8 }}
       >
         <div className="col-span-12 sm:col-span-4">
           <div className="sm:text-left">
@@ -40,11 +38,13 @@ const Projects = () => {
 
       {/* Projects */}
 
-      <div
-        // initial={{ opacity: 0, y: 100 }}
-        // whileInView={{ opacity: 1, y: 0 }}
-        // transition={{ duration: 0.8 }}
-      >
+      {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-8 md:mt-14">
+        {projectsArr.map((project) => (
+          <ProjectNew key={project.id} {...project} />
+        ))}
+      </div> */}
+
+      <div>
         <Splide
           aria-label="Projects"
           options={{
@@ -74,26 +74,6 @@ const Projects = () => {
           </SplideSlide>
         </Splide>
       </div>
-
-      {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start w-full mt-16">
-        {projectsArr.map((project) => (
-          <div key={project.key}>
-            <div className="relative">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="shape"
-              />
-              <div className="w-24 h-24 bg-black absolute bottom-0 right-0 rounded-tl-[50px]">
-                <div className="w-16 h-16 bg-secondary m-4 rounded-full" />
-              </div>
-            </div>
-            <div>
-              <p>{project.description}</p>
-            </div>
-          </div>
-        ))}
-      </div> */}
     </section>
   );
 };

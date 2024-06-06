@@ -22,6 +22,7 @@ import project3 from "./projects/project3.webp";
 import project4 from "./projects/project4.webp";
 import project5 from "./projects/project5.webp";
 
+import p1 from "./projects/p1.webp";
 import p2 from "./projects/p2.webp";
 import p3 from "./projects/p3.webp";
 import p4 from "./projects/p4.webp";
@@ -96,6 +97,7 @@ export {
   resume,
   share,
   strapi,
+  p1,
   p2,
   p3,
   p4,
