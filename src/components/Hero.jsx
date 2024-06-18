@@ -60,7 +60,7 @@ export default function Hero() {
           </p>
           <div className="mt-8 flex items-center gap-x-6">
             <a
-              href="https://bit.ly/sourabh_sikarwar_resume"
+              href="https://dub.sh/pupdy2l"
               className="px-4 py-2 md:px-6 md:py-3 bg-blue-gradient dark:bg-blue-gradient rounded font-semibold"
               target="_blank"
               rel="noreferrer"
