@@ -20,6 +20,26 @@ const Timeline = () => {
 
         <div className="relative col-span-12 space-y-6 md:col-span-8 px-4">
           <div className="col-span-12 space-y-12 relative sm:col-span-8 px-4 sm:space-y-12 before:absolute before:top-2 before:bottom-0 before:w-0.5 before:-left-3 before:dark:bg-gray-600 before:bg-gray-600">
+            {/* INDMoney */}
+            <div
+              // initial={{ opacity: 0, y: 100 }}
+              // whileInView={{ opacity: 1, y: 0 }}
+              // transition={{ duration: 0.8 }}
+              className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-secondary before:bg-secondary"
+            >
+              <h3 className={styles.heading5}>
+                Software Engineer -{" "}
+                <span className="text-gradient">INDmoney</span>
+              </h3>
+              <time className="text-xs mt-2 font-medium uppercase tracki text-gradient">
+                March 2024 - Present
+              </time>
+              <ul className="list-disc list-inside mt-2 pr-2">
+                {/* Add Experience */}
+              </ul>
+            </div>
+
+            {/* INDMoney Internship */}
             <div
               // initial={{ opacity: 0, y: 100 }}
               // whileInView={{ opacity: 1, y: 0 }}
@@ -35,26 +55,32 @@ const Timeline = () => {
               </time>
               <ul className="list-disc list-inside mt-2 pr-2">
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Developed{" "}
+                  Led{" "}
+                  <span className="font-medium text-white">in-house flyer</span>{" "}
+                  widget development replacing Appsflyer,{" "}
                   <span className="font-medium text-white">
-                    in-house flyer widgets end-to-end
-                  </span>
-                  , replacing Appsflyer across the web product to enhance
-                  <span className="font-medium text-white dark:text-white">
-                    {" "}
-                    interaction, performance, and user acquisition.
-                  </span>
+                    driving 25% user acquisition growth
+                  </span>{" "}
+                  and enhanced user engagement and performance.
                 </li>
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Developed and enhanced{" "}
+                  Developed{" "}
                   <span className="font-medium text-white">
-                    finance calculators
-                  </span>{" "}
-                  with interactive charts, optimizing Strapi APIs and images by{" "}
-                  <span className="font-medium text-white dark:text-white">
-                    50% in size.
+                    SEO-optimized finance pages and calculators{" "}
                   </span>
+                  with interactive charts, resulting in measurable improvements
+                  in search engine ranking.
                 </li>
+                <li className={`${styles.paragraph2} mt-2`}>
+                  Optimized{" "}
+                  <span className="font-medium text-white">
+                    Strapi APIs and images
+                  </span>{" "}
+                  by more than{" "}
+                  <span className="font-medium text-white">50%</span> reduction
+                  in size and time.
+                </li>
+
                 <li className={`${styles.paragraph2} mt-2`}>
                   Utilized{" "}
                   <span className="font-medium text-white dark:text-white">
@@ -65,6 +91,43 @@ const Timeline = () => {
               </ul>
             </div>
 
+            {/* Causal Funnel */}
+            <div
+              // initial={{ opacity: 0, y: 100 }}
+              // whileInView={{ opacity: 1, y: 0 }}
+              // transition={{ duration: 0.8 }}
+              className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-secondary before:bg-secondary"
+            >
+              <h3 className={styles.heading5}>
+                Full Stack Developer Intern -{" "}
+                <span className="text-gradient">CausalFunnel</span>
+              </h3>
+              <time className="text-xs mt-2 font-medium uppercase tracki text-gradient">
+                Jan 2024 - Feb 2024
+              </time>
+              <ul className="list-disc list-inside mt-2 pr-2">
+                <li className={`${styles.paragraph2} mt-2`}>
+                  Streamlined list and contact management by{" "}
+                  <span className="font-medium text-white dark:text-white">
+                    integrating 5+
+                  </span>{" "}
+                  marketing and automation tools, leveraging their{" "}
+                  <span className="font-medium text-white dark:text-white">
+                    REST APIs and custom cloud functions
+                  </span>{" "}
+                  for efficient client solutions.
+                </li>
+                <li className={`${styles.paragraph2} mt-2`}>
+                  Utilized{" "}
+                  <span className="font-medium text-white dark:text-white">
+                    NodeJS for Firebase Cloud Functions and ReactJS
+                  </span>{" "}
+                  for the frontend development.
+                </li>
+              </ul>
+            </div>
+
+            {/* OneAssure */}
             <div
               // initial={{ opacity: 0, y: 100 }}
               // whileInView={{ opacity: 1, y: 0 }}
@@ -80,7 +143,7 @@ const Timeline = () => {
               </time>
               <ul className="list-disc list-inside mt-2 pr-2">
                 <li className={`${styles.paragraph2} mt-2`}>
-                  Contributed in development of {" "}
+                  Contributed in development of{" "}
                   <span className="font-medium text-white">
                     application forms
                   </span>{" "}
@@ -103,44 +166,6 @@ const Timeline = () => {
                     ReactJS, Redux, TailwindCSS, and MaterialUI
                   </span>{" "}
                   to create a modern and user-friendly interface.
-                </li>
-              </ul>
-            </div>
-
-            <div
-              // initial={{ opacity: 0, y: 100 }}
-              // whileInView={{ opacity: 1, y: 0 }}
-              // transition={{ duration: 0.8 }}
-              className="flex flex-col relative before:absolute before:top-2 before:w-4 before:h-4 before:rounded-full before:left-[-35px] before:z-[1] before:dark:bg-secondary before:bg-secondary"
-            >
-              <h3 className={styles.heading5}>
-                Web Developer Intern -{" "}
-                <span className="text-gradient">Endeavor Welfare Society</span>
-              </h3>
-              <time className="text-xs mt-2 font-medium uppercase tracki text-gradient">
-                June 2021 - July 2021
-              </time>
-              <ul className="list-disc list-inside mt-2 pr-2">
-                <li className={`${styles.paragraph2} mt-2`}>
-                  Leveraged{" "}
-                  <span className="font-medium text-white dark:text-white">
-                    HTML, CSS, JavaScript, and Bootstrap
-                  </span>{" "}
-                  to design and implement the frontend of the website.
-                </li>
-                <li className={`${styles.paragraph2} mt-2`}>
-                  Collaborated with a team of{" "}
-                  <span className="font-medium text-white dark:text-white">
-                    3 developers
-                  </span>{" "}
-                  to create a donation platform from scratch.
-                </li>
-                <li className={`${styles.paragraph2} mt-2`}>
-                  Integrated the{" "}
-                  <span className="font-medium text-white dark:text-white">
-                    Razorpay payment gateway
-                  </span>{" "}
-                  for secure and hassle-free online donations.
                 </li>
               </ul>
             </div>

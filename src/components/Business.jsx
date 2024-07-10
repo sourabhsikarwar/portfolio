@@ -36,31 +36,19 @@ const Business = () => {
           About me
         </h1>
         <h2 className={styles.heading4}>
-          Transforming ideas into
-          <br className="sm:block hidden" /> interactive digital realities.
+          Transforming <span className="text-gradient">Ideas</span> into
+          <br className="sm:block hidden" />{" "}
+          <span className="text-gradient">Seamless</span> Digital Experiences
         </h2>
         <p className={`${styles.paragraph} text-justify w-full md:w-5/6`}>
-          Welcome to my world of full stack development! I am Sourabh Sikarwar,
-          a seasoned full stack developer with a passion for crafting innovative
-          digital solutions that seamlessly blend front-end aesthetics with
-          back-end functionality. With the experience of tech industry through
-          internships and projects, I have honed my skills to provide
-          comprehensive, end-to-end web development services.
+          Hi, I'm Sourabh Sikarwar, a software engineer at INDMoney. I
+          have my experience in full stack development, with a flair for crafting
+          dynamic web frontends using JavaScript, React.js, Next.js, and Node.js. My journey
+          includes four impactful internships, diverse freelance projects, and
+          adrenaline-pumping hackathons and projects. Always on the hunt for new knowledge,
+          I'm a continuous learner passionate about pushing the boundaries of
+          technology.
         </p>
-        {/* <div className="grid grid-cols-2 gap-8 my-4">
-          <div>
-            <h1 className={styles.heading5}>14+</h1>
-            <p className={styles.paragraph}>Projects</p>
-          </div>
-          <div>
-            <h1 className={styles.heading5}>14+ Project</h1>
-            <p className={styles.paragraph}>Lorem ipsum dolor sit.</p>
-          </div>
-          <div>
-            <h1 className={styles.heading5}>14+ Project</h1>
-            <p className={styles.paragraph}>Lorem ipsum dolor sit.</p>
-          </div>
-        </div> */}
       </div>
 
       <div className="flex-1 flex flex-col gap-4 w-full">
