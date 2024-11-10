@@ -32,10 +32,53 @@ const Timeline = () => {
                 <span className="text-gradient">INDmoney</span>
               </h3>
               <time className="text-xs mt-2 font-medium uppercase tracki text-gradient">
-                March 2024 - Present
+                JULY 2024 - Present
               </time>
               <ul className="list-disc list-inside mt-2 pr-2">
-                {/* Add Experience */}
+                <li className={`${styles.paragraph2} mt-2`}>
+                  Contributed to{" "}
+                  <span className="font-medium text-white">
+                    advanced charting for traders
+                  </span>{" "}
+                  enhancing user experience in the mobile app by integrating{" "}
+                  <span className="font-medium text-white">webviews</span> and
+                  native mobile development, and optimizing{" "}
+                  <span className="font-medium text-white">
+                    AI-driven chart patterns for 90% faster rendering
+                  </span>
+                </li>
+                <li className={`${styles.paragraph2} mt-2`}>
+                  Improved chart functionality and usability by adding{" "}
+                  <span className="font-medium text-white">
+                    live news, real-time profit/loss updates, order displays,
+                    index pinning on trading terminal,
+                  </span>{" "}
+                  and a revamped authentication flow across mobile and web
+                  trading products
+                </li>
+                <li className={`${styles.paragraph2} mt-2`}>
+                  Contributed in{" "}
+                  <span className="font-medium text-white">
+                    top-of-the-funnel SEO projects
+                  </span>
+                  , including commodity, live market, and financial detail
+                  pages.{" "}
+                  <span className="font-medium text-white">
+                    Improved crawlability and user experience{" "}
+                  </span>{" "}
+                  by developing content-rich components and resolving various
+                  audit issues
+                </li>
+                <li className={`${styles.paragraph2} mt-2`}>
+                  Provided{" "}
+                  <span className="font-medium text-white">
+                    development support
+                  </span>{" "}
+                  for web applications and mobile webviews for{" "}
+                  <span className="font-medium text-white">
+                    Instant Withdrawal and Insurance teams
+                  </span>
+                </li>
               </ul>
             </div>
 
@@ -51,7 +94,7 @@ const Timeline = () => {
                 <span className="text-gradient">INDmoney</span>
               </h3>
               <time className="text-xs mt-2 font-medium uppercase tracki text-gradient">
-                March 2024 - Present
+                March 2024 - June 2024
               </time>
               <ul className="list-disc list-inside mt-2 pr-2">
                 <li className={`${styles.paragraph2} mt-2`}>
@@ -61,15 +104,15 @@ const Timeline = () => {
                   <span className="font-medium text-white">
                     driving 25% user acquisition growth
                   </span>{" "}
-                  and enhanced user engagement and performance.
+                  and enhanced user engagement and performance
                 </li>
                 <li className={`${styles.paragraph2} mt-2`}>
                   Developed{" "}
                   <span className="font-medium text-white">
-                    SEO-optimized finance pages and calculators{" "}
-                  </span>
+                    SEO-optimized finance pages and calculators
+                  </span>{" "}
                   with interactive charts, resulting in measurable improvements
-                  in search engine ranking.
+                  in search engine ranking
                 </li>
                 <li className={`${styles.paragraph2} mt-2`}>
                   Optimized{" "}
@@ -78,17 +121,13 @@ const Timeline = () => {
                   </span>{" "}
                   by more than{" "}
                   <span className="font-medium text-white">50%</span> reduction
-                  in size and time.
-                </li>
-
-                <li className={`${styles.paragraph2} mt-2`}>
-                  Utilized{" "}
-                  <span className="font-medium text-white dark:text-white">
-                    NextJS, ReactJS, TypeScript, Strapi CMS, and TailwindCSS
-                  </span>{" "}
-                  for efficient development.
+                  in size and time
                 </li>
               </ul>
+              <p className={`${styles.paragraph2} !text-white mt-4 text-[16px]`}>
+                <span className="font-medium text-gradient">Tech Stack:</span>{" "}
+                NextJS, TypeScript, JavaScript, NodeJS, TailwindCSS, Strapi CMS
+              </p>
             </div>
 
             {/* Causal Funnel */}
@@ -117,14 +156,11 @@ const Timeline = () => {
                   </span>{" "}
                   for efficient client solutions.
                 </li>
-                <li className={`${styles.paragraph2} mt-2`}>
-                  Utilized{" "}
-                  <span className="font-medium text-white dark:text-white">
-                    NodeJS for Firebase Cloud Functions and ReactJS
-                  </span>{" "}
-                  for the frontend development.
-                </li>
               </ul>
+              <p className={`${styles.paragraph2} !text-white mt-4 text-[16px]`}>
+                <span className="font-medium text-gradient">Tech Stack:</span>{" "}
+                NodeJS for Firebase Cloud Functions, ReactJS, JavaScript, TailwindCSS
+              </p>
             </div>
 
             {/* OneAssure */}
@@ -168,6 +204,10 @@ const Timeline = () => {
                   to create a modern and user-friendly interface.
                 </li>
               </ul>
+              <p className={`${styles.paragraph2} !text-white mt-4 text-[16px]`}>
+                <span className="font-medium text-gradient">Tech Stack:</span>{" "}
+                ReactJS, JavaScript, Redux, TailwindCSS, MaterialUI
+              </p>
             </div>
           </div>
         </div>

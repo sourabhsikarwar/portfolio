@@ -166,7 +166,7 @@ export const skills = [
       {
         id: "5",
         img: react,
-        title: "React",
+        title: "React.js",
         rate: 80,
       },
       {
