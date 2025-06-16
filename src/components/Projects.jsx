@@ -4,10 +4,8 @@ import styles from "../style";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import Project from "./Project";
-import { motion } from "framer-motion";
 import Circular from "./Gradients/Circular";
-import { projectsArr } from "../constants";
-import ProjectNew from "./ProjectNew";
+import { projects } from "../constants/projects";
 
 const Projects = () => {
   return (
@@ -17,9 +15,7 @@ const Projects = () => {
     >
       <Circular />
 
-      <div
-        className="grid sm:grid-cols-12 items-start"
-      >
+      <div className="grid sm:grid-cols-12 items-start">
         <div className="col-span-12 sm:col-span-4">
           <div className="sm:text-left">
             <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
@@ -36,14 +32,6 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Projects */}
-
-      {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-8 md:mt-14">
-        {projectsArr.map((project) => (
-          <ProjectNew key={project.id} {...project} />
-        ))}
-      </div> */}
-
       <div>
         <Splide
           aria-label="Projects"
@@ -57,7 +45,7 @@ const Projects = () => {
             pagination: true,
           }}
         >
-          <SplideSlide>
+          {/* <SplideSlide>
             <Project value="5" />
           </SplideSlide>
           <SplideSlide>
@@ -71,7 +59,13 @@ const Projects = () => {
           </SplideSlide>
           <SplideSlide>
             <Project value="4" />
-          </SplideSlide>
+          </SplideSlide> */}
+
+          {projects.map((project, index) => (
+            <SplideSlide key={index}>
+              <Project projectData={project} />
+            </SplideSlide>
+          ))}
         </Splide>
       </div>
     </section>

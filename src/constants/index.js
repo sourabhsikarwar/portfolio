@@ -29,6 +29,8 @@ import {
   p4,
   p5,
   p1,
+  git,
+  golang
 } from "../assets";
 
 export const navLinks = [
@@ -136,44 +138,50 @@ export const socialMedia = [
 
 export const skills = [
   {
-    id: "s1",
+    id: "1",
+    title: "Languages",
+    skillSet: [
+      {
+        id: "1",
+        img: js,
+        title: "JavaScript",
+        rate: 60,
+      },
+      {
+        id: "2",
+        img: ts,
+        title: "TypeScript",
+        rate: 90,
+      },
+      {
+        id: "3",
+        img: golang,
+        title: "Golang",
+        rate: 60,
+      },
+    ],
+  },
+  {
+    id: "2",
     title: "Frontend",
     skillSet: [
       {
         id: "1",
+        img: nextjs,
+        title: "Next.js",
+        rate: 60,
+      },
+      {
+        id: "2",
         img: html,
         title: "HTML",
         rate: 90,
       },
       {
-        id: "2",
+        id: "3",
         img: css,
         title: "CSS",
         rate: 90,
-      },
-      {
-        id: "3",
-        img: js,
-        title: "JavaScript",
-        rate: 80,
-      },
-      {
-        id: "4",
-        img: ts,
-        title: "TypeScript",
-        rate: 50,
-      },
-      {
-        id: "5",
-        img: react,
-        title: "React.js",
-        rate: 80,
-      },
-      {
-        id: "6",
-        img: nextjs,
-        title: "Next.js",
-        rate: 60,
       },
       {
         id: "7",
@@ -184,7 +192,7 @@ export const skills = [
     ],
   },
   {
-    id: "s2",
+    id: "3",
     title: "Backend",
     skillSet: [
       {
@@ -199,46 +207,34 @@ export const skills = [
         title: "Express.js",
         rate: 70,
       },
-    ],
-  },
-  {
-    id: "s3",
-    title: "Database",
-    skillSet: [
       {
-        id: "1",
+        id: "3",
         img: mongodb,
         title: "MongoDB",
         rate: 75,
       },
       {
-        id: "2",
+        id: "4",
         img: firebase,
         title: "Firebase",
         rate: 60,
       },
-      {
-        id: "3",
-        img: postgresql,
-        title: "PostgreSQL",
-        rate: 70,
-      },
-      // {
-      //   id: "4",
-      //   img: redis,
-      //   title: "Redis",
-      //   rate: 30,
-      // },
     ],
   },
   {
-    id: "s4",
+    id: "4",
     title: "Others",
     skillSet: [
       {
         id: "1",
         img: rest,
         title: "REST API",
+        rate: 70,
+      },
+      {
+        id: "4",
+        img: git,
+        title: "Git",
         rate: 70,
       },
       {

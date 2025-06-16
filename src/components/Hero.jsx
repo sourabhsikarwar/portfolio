@@ -1,4 +1,8 @@
+import classNames from "classnames";
 import { profile } from "../assets";
+import styles from "../style";
+import Button from "./Common/Button";
+import TextWithHighlights from "./Common/TextWithHighlights";
 
 export default function Hero() {
   return (
@@ -44,30 +48,37 @@ export default function Hero() {
           }}
         />
       </div>
-      <div className="mx-auto flex flex-col md:flex-row items-center gap-8 max-w-6xl xl:max-w-7xl w-full">
+      <div
+        className={classNames(
+          "mx-auto flex flex-col md:flex-row items-center gap-8",
+          styles.boxWidth
+        )}
+      >
         <div className="mx-auto flex-1">
-          <span className="rounded-full bg-secondary/10 px-4 py-2 font-semibold leading-6 text-secondary ring-1 ring-inset ring-secondary/20">
+          <span className="rounded-full text-sm bg-secondary/10 px-4 py-2 font-semibold leading-6 text-secondary ring-1 ring-inset ring-secondary/20">
             Hello 👋
           </span>
-          <h1 className="mt-4 text-4xl font-bold text-white md:text-4xl lg:text-5xl xl:text-6xl">
+          <h1 className="mt-4 text-3xl font-space font-bold text-white md:text-4xl lg:text-4xl">
             I am <br />
             <span className="text-gradient">Sourabh Sikarwar</span>
           </h1>
-          <p className="mt-6 text-md md:text-lg leading-6 text-gray-300">
-            A passionate Full Stack Web Developer 🚀 having an experience of
-            building Web applications with JavaScript / Reactjs / Nodejs /
-            Expressjs / MongoDB and some other cool libraries and frameworks.
-          </p>
-          <div className="mt-8 flex items-center gap-x-6">
-            <a
-              href="https://dub.sh/pupdy2l"
-              className="px-4 py-2 md:px-6 md:py-3 bg-blue-gradient dark:bg-blue-gradient rounded font-semibold"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume
-            </a>
-          </div>
+          <TextWithHighlights
+            text="A passionate Full Stack Developer 🚀 having an experience of building Web applications with TypeScript / Nextjs / Nodejs and some other cool libraries and frameworks."
+            highlights={["TypeScript", "Nextjs", "Nodejs"]}
+            tag="p"
+            highlightStyle="bold"
+            className="mt-6 text-md font-space leading-6 text-gray-300"
+          />
+          <Button
+            variant="solid"
+            style="primary"
+            href="https://dub.sh/pupdy2l"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-8 flex items-center w-fit gap-x-6"
+          >
+            Resume
+          </Button>
         </div>
         <div className="mx-auto flex-1">
           <div className="w-full md:w-4/5 mx-auto">

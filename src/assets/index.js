@@ -11,6 +11,8 @@ import resume from "./icons/resume.png";
 import share from "./icons/share.png";
 import app from "./icons/app.png";
 import figmaIcon from "./icons/figma.png";
+import golang from "./skills/golang.webp";
+import git from "./skills/git.png";
 
 import profile from "./profile/profile.webp";
 import profile2 from "./profile/profile2.webp";
@@ -76,6 +78,8 @@ export {
   mysql,
   live,
   github,
+  git,
+  golang,
   project1,
   project2,
   project3,

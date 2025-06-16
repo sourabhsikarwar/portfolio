@@ -14,9 +14,7 @@ const Testimonials = () => {
           className="w-full h-full object-cover rotate-180"
         />
       </div>
-      <p
-        className="w-full text-gray-100 md:w-4/5 mx-auto text-center text-md md:text-xl paragraph"
-      >
+      <p className="w-full text-dimWhite md:w-4/5 mx-auto font-medium text-center text-lg">
         Sourabh's ability to bring fresh ideas to the table was truly
         commendable. He took the time to understand my vision and business
         needs, offering innovative solutions that exceeded my expectations.
@@ -33,7 +31,7 @@ const Testimonials = () => {
             className="w-full h-full object-cover rounded-full"
           />
         </div>
-        <h1 className="handWritten text-white text-5xl mt-2">Dennis Dubbala</h1>
+        <h1 className="text-white text-2xl mt-2">Dennis Dubbala</h1>
         <p className={styles.paragraph}>
           Product Lead, <span className="text-gradient">K2Cloud</span>
         </p>

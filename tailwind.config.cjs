@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        space: ["Space Grotesk", "sans-serif"],
       },
       boxShadow: {
         "card": "#80CAFF10 0px 24px 100px 0px",

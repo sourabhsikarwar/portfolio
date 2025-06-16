@@ -1,20 +1,20 @@
 const styles = {
-  boxWidth: "max-w-6xl xl:max-w-7xl w-full",
+  boxWidth: "max-w-5xl w-full",
 
   heading2:
-    "font-poppins font-semibold sm:text-[48px] text-[40px] text-white dark:text-white w-full",
+    "font-space font-semibold sm:text-[48px] text-[40px] text-white dark:text-white w-full",
   heading3:
-    "font-poppins font-semibold sm:text-[44px] text-[36px] text-white dark:text-white w-full",
+    "font-space font-semibold sm:text-[44px] text-[36px] text-white dark:text-white w-full",
   heading4:
-    "font-poppins font-semibold sm:text-[32px] md:text-[36px] text-[28px] text-white dark:text-white w-full",
+    "font-space font-semibold sm:text-[32px] md:text-[36px] text-[28px] text-white dark:text-white w-full",
   heading5:
-    "font-poppins font-semibold sm:text-[24px] text-[20px] text-white dark:text-white w-full",
+    "font-space font-semibold sm:text-[24px] text-[20px] text-white dark:text-white w-full",
   heading6:
-    "font-poppins font-semibold sm:text-[20px] text-[16px] text-white dark:text-white w-full",
+    "font-space font-semibold sm:text-[20px] text-[16px] text-white dark:text-white w-full",
   paragraph:
-    "font-poppins font-normal text-dimWhite dark:text-dimWhite text-[16px] leading-[30.8px]",
+    "font-space font-normal text-dimWhite dark:text-dimWhite text-[16px] leading-[30.8px]",
   paragraph2:
-    "font-poppins font-normal text-dimWhite dark:text-dimWhite text-[14px] leading-[30.8px]",
+    "font-space font-normal text-dimWhite dark:text-dimWhite text-[14px] leading-[30.8px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

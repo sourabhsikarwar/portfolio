@@ -3,7 +3,6 @@ import styles from "./style";
 import {
   Navbar,
   Hero,
-  Business,
   CTA,
   Footer,
   Timeline,
@@ -12,18 +11,22 @@ import {
   Zigzag,
   Testimonials,
 } from "./components";
+import classNames from "classnames";
 
 const App = () => {
   return (
-    <div className="bg-primary dark:bg-primary w-full overflow-hidden">
+    <div className="bg-primary dark:bg-primary w-full overflow-hidden font-space">
       <Navbar />
       <Hero />
 
       <div
-        className={`bg-primary dark:bg-primary ${styles.paddingX} ${styles.flexStart}`}
+        className={classNames(
+          "bg-primary dark:bg-primary",
+          styles.paddingX,
+          styles.flexStart
+        )}
       >
-        <div className={`${styles.boxWidth}`}>
-          <Business />
+        <div className={classNames(styles.boxWidth)}>
           <Timeline />
           <Projects />
           <Skills />

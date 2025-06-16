@@ -1,18 +1,26 @@
 import { useState } from "react";
 import { close, mylogo, menu } from "../assets";
 import { navLinks } from "../constants";
+import classNames from "classnames";
+import styles from "../style";
+import Button from "./Common/Button";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full z-50 fixed top-0 backdrop-blur-md bg-transparent">
-      <div className="flex py-3 sm:py-4 mx-auto justify-between items-center px-4 xl:px-0 max-w-6xl xl:max-w-7xl ">
+      <div
+        className={classNames(
+          "flex py-3 sm:py-4 mx-auto justify-between items-center px-4 xl:px-0",
+          styles.boxWidth
+        )}
+      >
         <img src={mylogo} alt="bank" className="w-[48px]" />
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`font-poppins font-normal cursor-pointer text-[16px] text-gray-300 hover:text-white duration-300 dark:text-gray-300 group ${
+              className={`font-space font-normal cursor-pointer text-[16px] text-gray-300 hover:text-white duration-300 dark:text-gray-300 group ${
                 index === navLinks.length - 1 ? "mr-10" : "mr-10"
               }`}
             >
@@ -20,14 +28,9 @@ const Navbar = () => {
               <hr className="border border-secondary w-1 mx-auto mt-2 group-hover:w-full duration-300" />
             </li>
           ))}
-          <li>
-            <a
-              href="#contact"
-              className="px-4 py-2 md:px-6 md:py-3 bg-blue-gradient dark:bg-blue-gradient rounded font-semibold"
-            >
-              Contact
-            </a>
-          </li>
+          <Button href="#contact" variant="solid" style="primary">
+            Contact
+          </Button>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -47,7 +50,7 @@ const Navbar = () => {
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-normal cursor-pointer text-[16px] text-gray-200 group hover:text-white duration-300 dark:text-gray-200 ${
+                  className={`font-space font-normal cursor-pointer text-[16px] text-gray-200 group hover:text-white duration-300 dark:text-gray-200 ${
                     index === navLinks.length - 1 ? "mb-4" : "mb-4"
                   }
                 `}
@@ -57,12 +60,9 @@ const Navbar = () => {
                 </li>
               ))}
               <li className="my-2">
-                <a
-                  href="#contact"
-                  className="px-4 py-2 bg-blue-gradient dark:bg-blue-gradient rounded font-semibold"
-                >
+                <Button href="#contact" variant="solid" style="primary">
                   Contact
-                </a>
+                </Button>
               </li>
             </ul>
           </div>
