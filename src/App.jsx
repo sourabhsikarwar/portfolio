@@ -11,11 +11,13 @@ import {
   Zigzag,
   Testimonials,
 } from "./components";
+import TechCursor from "./components/TechCursor";
 import classNames from "classnames";
 
 const App = () => {
   return (
     <div className="bg-primary dark:bg-primary w-full overflow-hidden font-space">
+      <TechCursor />
       <Navbar />
       <Hero />
 

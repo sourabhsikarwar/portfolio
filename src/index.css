@@ -23,6 +23,12 @@
 
 * {
   scroll-behavior: smooth;
+  cursor: none !important;
+}
+
+/* Ensure cursor is hidden on all elements */
+html, body, div, span, a, button, input, textarea, select {
+  cursor: none !important;
 }
 
 .shadow-img {
@@ -199,4 +205,43 @@
 }
 .splide__pagination__page.is-active {
   background-color: #6ac1ff;
+}
+
+/* Custom Tech Cursor */
+.custom-cursor {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #6ac1ff;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 99999;
+  background: rgba(106, 193, 255, 0.05);
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  box-shadow: 0 0 20px rgba(106, 193, 255, 0.3);
+}
+
+.custom-cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: #6ac1ff;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  box-shadow: 0 0 10px rgba(106, 193, 255, 0.8);
+}
+
+/* Show default cursor on mobile */
+@media (max-width: 768px) {
+  * {
+    cursor: auto !important;
+  }
+  .custom-cursor,
+  .custom-cursor-dot {
+    display: none !important;
+  }
 }

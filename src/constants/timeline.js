@@ -5,33 +5,53 @@ export const timelineData = [
     period: "JULY 2024 - Present",
     achievements: [
       {
-        text: "Contributed to advanced charting for traders enhancing user experience in the mobile app by integrating webviews and native mobile development, and optimizing AI-driven chart patterns for 90% faster rendering",
+        text: "Spearheaded the development of Flash Trading, a high-performance trading platform on web for scalping strategies by designing and implementing a WebSocket-based architecture for real-time updates of trade positions, orders, and prices—enhancing chart responsiveness and trade execution speed",
         highlights: [
-          "advanced charting for traders",
-          "webviews",
-          "AI-driven chart patterns for 90% faster rendering",
+          "Flash Trading, a high-performance trading platform",
+          "WebSocket-based architecture",
+          "real-time updates",
+          "chart responsiveness and trade execution speed",
         ],
       },
       {
-        text: "Improved chart functionality and usability by adding live news, real-time profit/loss updates, order displays, index pinning on trading terminal, and a revamped authentication flow across mobile and web trading products",
+        text: "Revamped and optimized INDcharts for mobile app, reducing load times by more than 80% and significantly improving performance across devices",
         highlights: [
-          "live news, real-time profit/loss updates, order displays, index pinning on trading terminal",
+          "INDcharts for mobile app",
+          "reducing load times by more than 80%",
         ],
       },
       {
-        text: "Contributed in top-of-the-funnel SEO projects, including commodity, live market, and financial detail pages. Improved crawlability and user experience by developing content-rich components and resolving various audit issues",
+        text: "Integrated in-house advanced features in INDcharts, across web and app, including AI-driven pattern recognition, live news feeds and layout savings to enrich the technical trading experience along with comprehensive logging",
         highlights: [
-          "top-of-the-funnel SEO projects",
-          "Improved crawlability and user experience",
+          "AI-driven pattern recognition",
+          "live news feeds",
+          "technical trading experience",
         ],
       },
       {
-        text: "Provided development support for web applications and mobile webviews for Instant Withdrawal and Insurance teams",
+        text: "Redesigned the live price-ticking mechanism in INDcharts for app to operate seamlessly in both the foreground and background modes, mitigating browser throttling and reducing live price interruptions by more than 90%",
         highlights: [
-          "development support",
-          "Instant Withdrawal and Insurance teams",
+          "live price-ticking mechanism",
+          "foreground and background modes",
+          "reducing live price interruptions by more than 90%",
         ],
       },
+      {
+        text: "Led the integration of INDcharts on web trading platform with core trading features, and embedded the Mind AI chatbot for interactive, chart-based conversational insights, enhancing user engagement",
+        highlights: [
+          "INDcharts on web trading platform",
+          "Mind AI chatbot",
+          "chart-based conversational insights",
+        ],
+      },
+    ],
+    techStack: [
+      "NextJS",
+      "TypeScript",
+      "JavaScript",
+      "WebSockets",
+      "TailwindCSS",
+      "Git",
     ],
   },
   {
