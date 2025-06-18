@@ -6,12 +6,13 @@ import "@splidejs/react-splide/css";
 import Project from "./Project";
 import Circular from "./Gradients/Circular";
 import { projects } from "../constants/projects";
+import classNames from "classnames";
 
 const Projects = () => {
   return (
     <section
       id="projects"
-      className={`${layout.section} ${styles.marginY} relative`}
+      className={classNames(layout.section, styles.marginY, "relative")}
     >
       <Circular />
 
@@ -45,22 +46,6 @@ const Projects = () => {
             pagination: true,
           }}
         >
-          {/* <SplideSlide>
-            <Project value="5" />
-          </SplideSlide>
-          <SplideSlide>
-            <Project value="1" />
-          </SplideSlide>
-          <SplideSlide>
-            <Project value="2" />
-          </SplideSlide>
-          <SplideSlide>
-            <Project value="3" />
-          </SplideSlide>
-          <SplideSlide>
-            <Project value="4" />
-          </SplideSlide> */}
-
           {projects.map((project, index) => (
             <SplideSlide key={index}>
               <Project projectData={project} />

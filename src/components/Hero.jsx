@@ -1,4 +1,5 @@
 import classNames from "classnames";
+import { motion, AnimatePresence } from "framer-motion";
 import { profile } from "../assets";
 import styles from "../style";
 import Button from "./Common/Button";
@@ -54,37 +55,124 @@ export default function Hero() {
           styles.boxWidth
         )}
       >
-        <div className="mx-auto flex-1">
-          <span className="rounded-full text-sm bg-secondary/10 px-4 py-2 font-semibold leading-6 text-secondary ring-1 ring-inset ring-secondary/20">
-            Hello 👋
-          </span>
-          <h1 className="mt-4 text-3xl font-space font-bold text-white md:text-4xl lg:text-4xl">
-            I am <br />
-            <span className="text-gradient">Sourabh Sikarwar</span>
-          </h1>
-          <TextWithHighlights
-            text="A passionate Full Stack Developer 🚀 having an experience of building Web applications with TypeScript / Nextjs / Nodejs and some other cool libraries and frameworks."
-            highlights={["TypeScript", "Nextjs", "Nodejs"]}
-            tag="p"
-            highlightStyle="bold"
-            className="mt-6 text-md font-space leading-6 text-gray-300"
-          />
-          <Button
-            variant="solid"
-            style="primary"
-            href="https://dub.sh/pupdy2l"
-            target="_blank"
-            rel="noreferrer"
-            className="mt-8 flex items-center w-fit gap-x-6"
+        <motion.div
+          className="mx-auto flex-1"
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          {/* Tech greeting badge */}
+          <motion.div
+            className="inline-flex items-center gap-2 bg-secondary/10 backdrop-blur-sm border border-secondary/20 rounded-full px-4 py-2"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Resume
-          </Button>
-        </div>
-        <div className="mx-auto flex-1">
+            <span className="text-sm font-semibold text-secondary">
+              Hello World! 👋
+            </span>
+          </motion.div>
+
+          {/* Main heading */}
+          <motion.h1
+            className="mt-4 text-3xl lg:text-5xl font-bold text-white leading-tight"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+          >
+            <span className="block">Hello, I'm</span>
+            <motion.span
+              className="bg-gradient-to-br from-[#6ac1ff] via-[#8aceff] to-white bg-clip-text text-transparent cursor-pointer hover:scale-105 transition-transform duration-300 relative overflow-hidden"
+              animate={{
+                backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
+              }}
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+              style={{ backgroundSize: "200% 200%" }}
+              whileHover={{ scale: 1.05 }}
+            >
+              <motion.span
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{
+                  duration: 0.4,
+                  ease: "easeInOut",
+                }}
+                className="inline-block"
+              >
+                Sourabh Sikarwar
+              </motion.span>
+            </motion.span>
+          </motion.h1>
+
+          {/* Role description */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          >
+            <TextWithHighlights
+              text="A passionate Full Stack Developer crafting digital experiences with modern technologies. Specialized in building scalable web applications using TypeScript, Next.js, and Node.js."
+              highlights={[
+                "Full Stack Developer",
+                "TypeScript",
+                "Next.js",
+                "Node.js",
+              ]}
+              tag="p"
+              highlightStyle="bold"
+              className="mt-4 text-sm lg:text-lg text-gray-400 leading-relaxed max-w-2xl"
+            />
+          </motion.div>
+
+          {/* CTA Buttons */}
+          <motion.div
+            className="flex flex-row items-center gap-4 mt-6"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+          >
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <Button
+                variant="solid"
+                style="primary"
+                href="https://dub.sh/pupdy2l"
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center w-fit gap-x-6"
+              >
+                Resume
+              </Button>
+            </motion.div>
+
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+              <Button
+                variant="outlined"
+                style="secondary"
+                href="#contact"
+                className="border-2 border-secondary/30 text-secondary hover:bg-secondary/10 hover:border-secondary/50 transition-all duration-300"
+              >
+                Get In Touch
+              </Button>
+            </motion.div>
+          </motion.div>
+        </motion.div>
+
+        {/* Simple profile image */}
+        <motion.div
+          className="mx-auto flex-1"
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
+        >
           <div className="w-full md:w-4/5 mx-auto">
-            <img src={profile} alt="App screenshot" className="rounded-md" />
+            <img src={profile} alt="Sourabh Sikarwar" className="rounded-md" />
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
