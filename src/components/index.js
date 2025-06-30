@@ -9,6 +9,7 @@ import Skills from "./Skills";
 import Loader from "./Loader";
 import Zigzag from "./Gradients/Zigzag";
 import Circular from "./Gradients/Circular";
+import Blogs from "./Blogs/Blogs";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Loader,
   Zigzag,
   Circular,
+  Blogs,
 };

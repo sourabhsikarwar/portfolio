@@ -55,6 +55,9 @@ import linkedin from "./social/linkedin.svg";
 
 import dennisPhoto from "./testimonial/photo.webp";
 
+// blogs
+import cover1 from "./blogs/cover1.jpg";
+
 export {
   menu,
   close,
@@ -106,4 +109,5 @@ export {
   p3,
   p4,
   p5,
+  cover1,
 };

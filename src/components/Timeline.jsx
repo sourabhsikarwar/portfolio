@@ -11,7 +11,7 @@ const Timeline = () => {
       <div className="flex flex-col gap-8">
         <div className="col-span-12 md:col-span-4">
           <div className="sm:text-left">
-            <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
+            <div className="h-2 w-[3rem] bg-secondary dark:bg-secondary rounded-full mb-2" />
             <h3 className={styles.heading4}>Work Experience</h3>
           </div>
         </div>

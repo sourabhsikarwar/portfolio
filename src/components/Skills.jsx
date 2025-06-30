@@ -10,7 +10,7 @@ const Skills = () => {
       <div className="grid gap-4 sm:grid-cols-12 w-full font-space">
         <div className="sm:col-span-4 col-span-12">
           <div className="sm:text-left">
-            <div className="h-2 w-1/12 bg-secondary dark:bg-secondary rounded-full mb-2" />
+            <div className="h-2 w-[3rem] bg-secondary dark:bg-secondary rounded-full mb-2" />
             <h3 className={styles.heading4}>Skills</h3>
           </div>
         </div>

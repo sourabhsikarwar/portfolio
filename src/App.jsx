@@ -10,6 +10,7 @@ import {
   Skills,
   Zigzag,
   Testimonials,
+  Blogs,
 } from "./components";
 import TechCursor from "./components/TechCursor";
 import classNames from "classnames";
@@ -31,6 +32,7 @@ const App = () => {
         <div className={classNames(styles.boxWidth)}>
           <Timeline />
           <Projects />
+          <Blogs />
           <Skills />
           <Testimonials />
           <div className="relative">
