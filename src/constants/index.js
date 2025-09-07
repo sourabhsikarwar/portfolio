@@ -3,6 +3,7 @@ import {
   js,
   ts,
   react,
+  reactNative,
   nextjs,
   firebase,
   nodejs,
@@ -172,16 +173,10 @@ export const skills = [
         rate: 60,
       },
       {
-        id: "2",
-        img: html,
-        title: "HTML",
-        rate: 90,
-      },
-      {
-        id: "3",
-        img: css,
-        title: "CSS",
-        rate: 90,
+        id: "9",
+        img: reactNative,
+        title: "React Native",
+        rate: 60,
       },
       {
         id: "7",

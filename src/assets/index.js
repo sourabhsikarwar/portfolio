@@ -48,6 +48,7 @@ import figma from "./skills/figma.png";
 import rest from "./skills/rest.png";
 import postgresql from "./skills/postgresql.png";
 import strapi from "./skills/strapi.png";
+import reactNative from "./skills/react-native.png";
 
 import github from "./social/github.png";
 import leetcode from "./social/leetcode.svg";
@@ -66,6 +67,7 @@ export {
   profile2,
   mylogo,
   react,
+  reactNative,
   nextjs,
   firebase,
   js,
